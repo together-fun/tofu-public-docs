@@ -1,28 +1,33 @@
 # TOFU Public Docs
 
-Together.fun (TOFU) 对外公开文档站 —— 替代原 GitBook（docs.together.fun）的自建文档项目。
+Public documentation site for **Together.fun (TOFU)** — the gamified social trading platform. Replaces the old GitBook site at [docs.together.fun](https://docs.together.fun).
 
-- **GitHub**: https://github.com/together-fun/tofu-public-docs
-- **目标域名**: docs.together.fun（待建站完成后从 GitBook 切 DNS 到 Cloudflare）
-- **技术方向**: Astro Starlight 静态站 + Cloudflare 部署（见 `HANDOVER.md` 构建参考）
+Built with [Astro Starlight](https://starlight.astro.build/). Dark-only theme matching the TOFU brand (green `#14F195` on near-black).
 
-## 目录结构
+## Local development
 
-```
-content/tofu-docs/   TOFU Docs 板块稿件（7 页：Welcome / Why TOFU / Arcade 总览 / Season1 回顾 / Roadmap / Team）
-content/arcade/      TOFU Trading Arcade 板块稿件（19 页：交易 / 聊天弹幕 / 装扮等级 / 盲盒 / 工会等）
-assets/screenshots/  产品界面截图（配图用，持续补充，见 assets/SHOT_LIST.md）
-assets/brand/        品牌素材（Tofu 角色插画 / banner / logo，含旧 GitBook 站全部图片）
-archive/             旧 GitBook 站全文存档 + 改版结构设计（历史参考）
-HANDOVER.md          ★ 知识移交文档：来龙去脉、风格还原参数、构建与部署参考（先读这个）
-.cursor/rules/       本仓库 AI 规则（品牌口径、事实源、写作约定）
+```powershell
+pnpm install
+pnpm dev        # http://localhost:3100
 ```
 
-## 关联仓库（事实源）
+Or just right-click `start-local.ps1` → *Run with PowerShell*.
 
-| 项目 | 本地路径 | GitHub |
-|---|---|---|
-| 前端（功能事实源） | `D:\TOFU_website` | https://github.com/MonsterYaoYao/TOFU_website_trade |
-| 后端（只读参考） | `D:\TOFU_backend` | https://github.com/guoqianghao9/amzdex（分支 `codex/packages-submodule`）|
+```powershell
+pnpm build      # static build into dist/
+pnpm preview    # serve the production build locally
+```
 
-文档描述的功能必须与产品实际一致 —— 拿不准时去读前端/后端代码，不要凭空编。
+## Layout
+
+```
+src/content/docs/            All pages (index.mdx + tofu-docs/ + arcade/)
+src/assets/                  Images referenced by pages (brand / screenshots / backgrounds)
+src/styles/theme.css         TOFU theme (palette from HANDOVER.md §5)
+astro.config.mjs             Starlight config: sidebar, logo, plugins, port 3100
+assets/                      Unused source material library (brand art, shot list)
+archive/                     Old GitBook site snapshot + restructure design
+HANDOVER.md                  ★ Project handover doc — read this first (Chinese)
+```
+
+Content conventions, terminology, and fact-source rules live in `.cursor/rules/tofu-docs.mdc`. Deployment target: Cloudflare (not wired up yet).
