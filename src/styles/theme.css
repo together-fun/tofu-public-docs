@@ -1,0 +1,125 @@
+/*
+ * TOFU docs theme.
+ * Palette measured from the old GitBook site (docs.together.fun) — see HANDOVER.md §5.
+ * GitBook theme fingerprint: clean / tint / rounded-corners / sidebar-list-pill /
+ * depth-subtle / font-Inter / dark.
+ */
+
+:root {
+  --sl-font: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+}
+
+/* Dark palette (the site is dark-only). */
+:root,
+:root[data-theme='dark'] {
+  /* Brand green */
+  --sl-color-accent-low: #23342a; /* primary-4: selected-pill / tint backgrounds */
+  --sl-color-accent: #00b25b; /* primary-10: hover */
+  --sl-color-accent-high: #14f195; /* primary-9: brand green */
+
+  /* Greenish-neutral grays (GitBook "tint" scale) */
+  --sl-color-white: #fefffe; /* tint-12: headings / strong text */
+  --sl-color-gray-1: #d9e2db;
+  --sl-color-gray-2: #b4c1b7; /* tint-9: secondary text */
+  --sl-color-gray-3: #77837a; /* tint-10 */
+  --sl-color-gray-4: #4e5951; /* tint-8 */
+  --sl-color-gray-5: #3b463e; /* tint-7 */
+  --sl-color-gray-6: #131c15; /* tint-3: panels / inline code bg */
+  --sl-color-gray-7: #0b130d;
+  --sl-color-black: #010502; /* tint-1: page background */
+
+  --sl-color-bg-sidebar: #050d07; /* tint-2 */
+  --sl-color-bg-nav: #050d07;
+  --sl-color-hairline: #2a342c; /* tint-6: borders / dividers */
+  --sl-color-hairline-light: #2a342c;
+  --sl-color-hairline-shade: #2a342c;
+
+  --sl-color-text: #fefffe; /* body text (tint-12, as measured) */
+  --sl-color-text-accent: #14f195; /* links & accents */
+}
+
+/* ---- Links ---------------------------------------------------------- */
+
+.sl-markdown-content a:not(:where(.not-content *)) {
+  color: var(--sl-color-accent-high);
+  text-decoration: none;
+}
+.sl-markdown-content a:not(:where(.not-content *)):hover {
+  color: var(--sl-color-accent);
+  text-decoration: underline;
+}
+
+/* ---- Sidebar: pill-shaped items (GitBook sidebar-list-pill) --------- */
+
+.sidebar-content a {
+  border-radius: 999px;
+}
+.sidebar-content a[aria-current='page'],
+.sidebar-content a[aria-current='page']:hover,
+.sidebar-content a[aria-current='page']:focus {
+  background-color: #242f28; /* primary-3 */
+  color: var(--sl-color-accent-high);
+  font-weight: 600;
+}
+.sidebar-content a:hover:not([aria-current='page']) {
+  background-color: var(--sl-color-gray-6);
+  color: var(--sl-color-white);
+}
+
+/* Group labels: small uppercase, like the old GitBook sidebar. */
+.sidebar-content .group-label span {
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  font-size: var(--sl-text-xs);
+  font-weight: 600;
+  color: var(--sl-color-gray-3);
+}
+/* Keep nested page links inside groups looking like normal entries. */
+.sidebar-content li li .group-label span {
+  letter-spacing: 0.04em;
+}
+
+/* ---- Rounded corners + subtle depth --------------------------------- */
+
+.sl-markdown-content img {
+  border-radius: 0.75rem;
+  border: 1px solid var(--sl-color-hairline);
+  box-shadow: 0 8px 32px -16px rgb(0 0 0 / 0.8);
+}
+/* Transparent illustrations / mascots should float freely. */
+.sl-markdown-content img[alt*='illustration' i],
+.sl-markdown-content img[alt*='mascot' i] {
+  border: none;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+.card,
+.sl-link-card {
+  border-radius: 0.75rem;
+  background-color: var(--sl-color-gray-7, #0b130d);
+}
+.sl-link-card:hover {
+  border-color: var(--sl-color-accent);
+  background-color: var(--sl-color-gray-6);
+}
+
+.starlight-aside {
+  border-radius: 0.5rem;
+}
+
+/* ---- Homepage hero --------------------------------------------------- */
+
+.hero {
+  background:
+    linear-gradient(180deg, rgb(1 5 2 / 0.45) 0%, rgb(1 5 2 / 0.94) 100%),
+    url('../assets/backgrounds/pit-trading-bg.webp') center / cover no-repeat;
+  border: 1px solid var(--sl-color-hairline);
+  border-radius: 1.25rem;
+  padding: clamp(2rem, 5vw, 4rem) clamp(1.25rem, 4vw, 3.5rem);
+  box-shadow: 0 24px 80px -40px rgb(20 241 149 / 0.35);
+}
+.hero .tagline {
+  color: var(--sl-color-gray-1);
+}
