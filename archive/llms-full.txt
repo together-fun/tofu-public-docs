@@ -1,0 +1,547 @@
+# Welcome to TOFU
+
+**Together.fun** is a gamified social trading platform built for the modern crypto participant: the degen, the meme-lover, the alpha hunter. We are creating a cultural hub where trading, entertainment, and community collide - think *Robinhood meets TikTok, powered by Web3 principles*.
+
+<figure><img src="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2Fl9EkCMlRcAjLLvi9f86Y%2FTofu%20Man%20-%20Short%20Arm%20Inviting%20Gesture.png?alt=media&amp;token=1e85eba5-a422-4f31-b56f-e9069b06942b" alt=""><figcaption></figcaption></figure>
+
+### Brand Identity
+
+| **Element**      | **Details**                                                                                                                           |
+| ---------------- | ------------------------------------------------------------------------------------------------------------------------------------- |
+| **Project Name** | Together.fun (**TOFU**)                                                                                                               |
+| **Token**        | $TOFU (**TBA）**                                                                                                                       |
+| **Slogan**       | **Together, We Farm Fun.**                                                                                                            |
+| **One-Liner**    | The gamified trading platform where the **community is the alpha**, **execution is a game**, and **your portfolio tells your story**. |
+
+\
+The old world of trading is lonely, complex, and joyless. It was built for a different time and a different user. Together.fun is building what comes next.
+
+We are creating a platform where the **community is the alpha, where execution is a game, and where your portfolio tells your story.** From the cultural on-ramp of RugPad Royale to the full gamified trading revolution of the Tofu Arcade, every element is designed to make crypto trading social, fun, and fair.
+
+Backed by a team that combines institutional finance discipline with native cultural insight, and built on Solana’s high-performance blockchain, Together.fun is positioned to become the essential gateway for the next generation of crypto participants.
+
+***Together, We Farm Fun.*** We are the vibe. And the future is fun.&#x20;
+
+Join us. Let’s farm it together.
+
+### Jump right in
+
+<table data-view="cards"><thead><tr><th></th><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-bolt">:bolt:</i></h4></td><td><strong>Phase 1</strong></td><td>The Pre-Launch Campaign &#x26; Fun Factory</td><td><a href="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2FBMIif8sLiR0pOMmZOiJA%2Fimage.png?alt=media&amp;token=6457ebfe-bbdd-4366-b3ab-df34667b8eb7">image.png</a></td><td></td><td><a href="/phase-1-rugpad-royale/introduction">Introduction</a></td></tr><tr><td><h4><i class="fa-leaf">:leaf:</i></h4></td><td><strong>Phase 2</strong></td><td>A fully gamified social trading experience</td><td><a href="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2FVACZqtLZnzm826mGv1EH%2FTofu%20Man%20-%20%E9%AA%91%E7%81%AB%E7%AE%AD%E4%B8%8A%E5%8D%87%20-%20Remove%20Hair%20copy%204.png?alt=media&amp;token=308ed9f6-c5e7-470a-8e59-5e8158b5ff8e">Tofu Man - 骑火箭上升 - Remove Hair copy 4.png</a></td><td></td><td><a href="/phase-2-the-tofu-arcade/introduction">Introduction</a></td></tr><tr><td><h4><i class="fa-globe-pointer">:globe-pointer:</i></h4></td><td><strong>The Team</strong></td><td>Institutional Discipline. Native Cultural Insight.</td><td><a href="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2FaO79wSVqXIV3lSw1b6Y8%2F%E5%9B%BE%E7%89%877.png?alt=media&amp;token=b5a145e0-141c-40db-9574-0134bb621150">图片7.png</a></td><td></td><td><a href="/others/the-team">The Team</a></td></tr></tbody></table>
+
+
+# The Problem
+
+Trading Is Broken
+
+### The Fractured Workflow
+
+Today’s crypto trader operates across a minimum of three disconnected environments: Twitter/X for discovering alpha and reading sentiment, Telegram for community-driven calls and group coordination, and a separate DEX or exchange tab for actual execution. This fragmented workflow means opportunities are missed, context is lost, and the experience is fundamentally isolating.
+
+### Tools Built for the Wrong User
+
+The first wave of crypto trading platforms replicated traditional finance: more charts, more indicators, more complex order types. But here’s the paradox—the vast majority of the crypto market is narrative-driven. Traditional technical analysis has limited utility in a space where a single tweet can move billions in market cap. The tools were built for analysts, but the actual users are community-driven participants chasing narratives, vibes, and momentum.
+
+It's time to stop using tools built for a reality that never existed — and start playing the game with tools built for the one that does
+
+
+# The Solution
+
+Together.fun
+
+Robinhood didn’t win by being a better Bloomberg; it won by being *nothing like Bloomberg*. It was simple, mobile-native, and social. It understood its users didn’t love finance—they loved the *game* of finance. Together.fun takes that playbook and upgrades it for the crypto-native generation.
+
+If the market is a casino, we’re building the most fun casino on the internet. If trading is a social game, we’re building the stadium. Together.fun is the first platform that accepts a fundamental truth: in the age of web3/crypto, vibes are the new value.
+
+### Core Value Propositions
+
+<figure><img src="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2F4ejW27oa4d7eW6ydpQrZ%2FTofu%20Man%20-%20Wider%20Head%20Based%20on%20Reference%20copy%203.jpg?alt=media&amp;token=8db42874-094f-42d2-9614-cedff3d64d77" alt=""><figcaption></figcaption></figure>
+
+#### **All-in-One Social Trading Hub**
+
+A multi-dimensional live space where charts, comments (danmu), live chat, and streams converge in real time—one screen, no switching. Your alpha feed, your community, and your trade button are finally in one place.
+
+#### Gamified Execution
+
+A console-style trading experience that replaces complex trading UI with intuitive gamepad controls, real-time order flow visualization, and surprise rewards from trading.
+
+#### Identity & Legacy System
+
+An RPG like progression system that transforms your trading journey into a legacy: unlockable cosmetics, achievements, and a place in the community’s Hall of Fame (or Rekt Memorial).
+
+#### Collective Action
+
+Coordinated, time‑limited trading events where the community moves as one, with the chance to earn boosted rewards.
+
+#### Creator Economy
+
+A next-gen community and referral system where clans form around KOLs, compete in clan wars, occupy token territories, and share treasury rewards.
+
+
+# Landscape
+
+Together.fun occupies a unique position at the intersection of gamified trading, social platforms, and Web3 gaming. While individual competitors exist in each vertical, no platform unifies all three:
+
+| **Feature**            | **Together.fun** | **Traditional DEX** | **Social Trading** | **Web3 Games** |
+| ---------------------- | ---------------- | ------------------- | ------------------ | -------------- |
+| **Gamified UI**        | ✅                | ❌                   | Partial            | ✅              |
+| **Social Feed**        | ✅                | ❌                   | ✅                  | ❌              |
+| **On-Chain Trading**   | ✅                | ✅                   | Partial            | ❌              |
+| **Creator Economy**    | ✅                | ❌                   | Partial            | ❌              |
+| **NFT Achievements**   | ✅                | ❌                   | ❌                  | ✅              |
+| **Collective Trading** | ✅                | ❌                   | ❌                  | ❌              |
+| **Live Streaming**     | ✅                | ❌                   | Partial            | Partial        |
+
+Together.fun’s competitive advantage lies in being the only platform that combines all of these elements into a single, cohesive experience designed from the ground up for the crypto-native generation.
+
+
+# Introduction
+
+The Pre-Launch Campaign & Fun Factory
+
+A gamified, community-driven prelude to the main platform, designed to onboard users, distribute rewards, and build the cultural momentum that will power Phase 2.
+
+<figure><img src="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2FTl7pAnEVGBwhZAkwMi8f%2Fimage.png?alt=media&amp;token=b35cfff5-a821-40e7-b4da-9f11a9683dfc" alt=""><figcaption></figcaption></figure>
+
+**RugPad Royale** is a satirical, transparent simulation of the memecoin market—a self-aware game that mirrors the chaos of meme trading in a provably fair, fast-paced PvP format. It’s not you versus the house. It’s you versus other degens.
+
+<figure><img src="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2FRQsXfxpzZB1Drzy3K2ss%2Fimage.png?alt=media&amp;token=a0aa7084-97db-4b49-a022-da840a710331" alt=""><figcaption></figcaption></figure>
+
+
+# Core Gameplay
+
+The game distills the entire memecoin lifecycle into a three-minute spectacle:
+
+<figure><img src="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2FgGnDbhukwLEffwEW8Z0D%2Fgame_main.png?alt=media&amp;token=5cc359f1-65ff-45d6-bc8a-1bd4f2127968" alt=""><figcaption></figcaption></figure>
+
+* **Pick Your Poison:** Enter the arena and see 9 vibrant sections, each themed after a trending meme coin ($BONK, $TRUMP, etc.). Back the narrative you believe in.
+* **Ape In Your $SOL:** Place your bet using $SOL on the section you think will come out on top. The more you commit, the bigger your potential share of the pot.
+* **Let the Chain Decide:** When the timer hits zero, a 100% on-chain Verifiable Random Function (VRF) makes the final, unbiased call. No black boxes. No dev tricks. Pure, provable fairness.
+* **The 10% Prevail:** Only ONE room wins. The victors split the entire pot pro-rata based on their betting share. The other 8 rooms get rekt—mirroring the brutal, beautiful reality of the memecoin market.
+
+### Progression & Rewards System
+
+<figure><img src="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2FnGvgSRKeP8kaB9ikWEmf%2F191617.png?alt=media&amp;token=14f8fbf2-581e-4387-9d32-04ae9806ee30" alt=""><figcaption></figcaption></figure>
+
+Win or lose, every player builds their legacy in the Together.fun ecosystem from Day 1:
+
+* **$XP & Leveling:** Every play increases your clout. Flex your degen rank and unlock new tiers. XP points are the core “farm” mechanic—accrued throughout Phase 1 and directly convertible into $TOFU during the future Token Generation Event (TGE).
+* **Alpha NFTs:** Collect unique digital assets that prove your prowess or commemorate your most legendary scars. These include profile pictures, badges, and items with rarity tiers from Common to Legendary.
+* **Achievement System:** Track progress and unlock rewards across categories—including milestones like Hat Trick (3 wins in a row), Unstoppable (10 consecutive wins), and Crypto Tycoon (100+ SOL net profit).
+* **Daily & Weekly Tasks:** Structured engagement loops that reward consistent participation with bonus XP and unlock gated content.
+
+### Social Features
+
+<figure><img src="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2FRsWGU5fFMEofdOe2s4bE%2Fimage.png?alt=media&amp;token=cb2862c7-3928-4ed5-8051-4d7bc974e2c4" alt=""><figcaption></figcaption></figure>
+
+* **Live In-Game Chat:** Real-time communication between players during rounds.
+* **Avatar System:** Customizable player identities with NFT-based accessories.
+* **Hall of Fame & Leaderboard:** Top players and rankings displayed with core metrics, rewarding competitive excellence.
+* **Social Sharing:** One-click sharing of wins, losses, and achievements to X/Twitter and Telegram.
+
+
+# Fair Play
+
+RugPad Royale is explicitly designed to not be a house-versus-player model:
+
+* **We Are NOT The House:** Together.fun takes a small, transparent platform fee (on-chain VRF generation cost). We do not bet against players.
+* **PvP Wealth Transfer:** Wealth isn’t printed; it’s transferred between players—just like the real market, but faster and fairer.
+* **On-Chain Verification:** Every game outcome is verifiable on the Solana blockchain. Full transparency, zero trust assumptions.
+
+You can also check our aduit information [HERE](/phase-1-rugpad-royale/audit).
+
+
+# Audit
+
+Security isn't an afterthought. It's the foundation ⚡️
+
+We're building a social playground for onchain interaction - where communities can launch, play, and coordinate around shared experiences in real time.\
+Not passive scrolling. Real participation. 🔥
+
+Platforms that move that fast need infrastructure that holds under pressure.
+
+That's why we partnered with&#x20;**Hashlock** to audit our smart contracts - reviewing permissions, execution paths, and every edge case that matters once communities start moving fast and capital starts flowing 🔍
+
+When thousands of players coordinate onchain at once, one vulnerability changes everything.
+
+**Together.Fun** and **Hashlock** made sure it won't. ✅
+
+Building fun on a secure foundation. That's the only way we build. ⚡️
+
+<figure><img src="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2Fk3RFPe2NxxEevfySPfsT%2Faduithashlock.png?alt=media&amp;token=bd0c48c6-dcd9-4de0-89ce-e6b9dcf45107" alt=""><figcaption></figcaption></figure>
+
+**Our audit:** <https://hashlock.com/audits/together-fun>
+
+
+# Airdrop & Rewards
+
+Early participation in Season 1 is designed to build the foundation of your long-term value within the **Together.fun** ecosystem. Here is how your current engagement translates into future ecosystem rewards and the upcoming **$TOFU** airdrop.
+
+(**Note:** For a more detailed and degen-friendly breakdown of these mechanics, please check out our [**\[Degen's Guide to Airdrops Here\]**](/rugpad-guides/tofu-ecosystem/future-airdrop-and-rewards).) 👈&#x20;
+
+<figure><img src="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2FLqA3eT1HnHENnOlb3yCg%2FTofu%20Man%20-%20%E4%BF%AE%E5%A4%8D%E7%89%88%20-%20%E7%BA%BF%E6%9D%A1%E8%BF%9E%E8%B4%AF%20copy.png?alt=media&amp;token=91830fcf-5393-46b2-927e-96c7b0c60ead" alt=""><figcaption></figcaption></figure>
+
+### XP to $TOFU Conversion
+
+All XP accumulated by users during Phase 1 will be directly factored into the $TOFU airdrop allocation at our Token Generation Event (TGE). While the exact conversion formulas will be finalized closer to launch, we firmly commit that early gameplay and XP generation will serve as a factor for future token distribution.
+
+### Extended NFT Utility & Cross-Platform Identity
+
+**Together.fun** is developing a unified social trading ecosystem. Your on-chain footprint from Phase 1 (RugPad Royale) will not be isolated. It will seamlessly bridge to your identity on our upcoming trading platform, ensuring your early reputation and assets carry over to unlock future platform privileges.&#x20;
+
+Moreover, your comprehensive NFT holdings—factoring in the type, rarity, and total quantity—will also act as an essential multiplier for your airdrop allocation.&#x20;
+
+### Disclaimer
+
+Please note that all specific mechanics, conversion ratios, and distribution models are subject to change. To ensure a fair and sybil-resistant distribution, the final allocation criteria and snapshot details will be officially announced closer to the TGE.
+
+
+# Introduction
+
+The Main Stage
+
+A fully gamified social trading experience that evolves Together.fun from a game to a platform, leveraging the community built in Phase 1. This is what we are selling from Day 1—the vision that all marketing paints a vivid picture of.
+
+<figure><img src="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2FYkKpR85HsDuUDGqC9xu3%2Fbanner_gm.png?alt=media&amp;token=0bf24069-e550-4777-b205-cb5c1f25603a" alt=""><figcaption></figcaption></figure>
+
+
+# Social Trading
+
+**What it is:** A multi-dimensional live space where charts, comments (danmu), live chat, and streams converge in real time—one screen, no switching.
+
+**Detailed Features:**
+
+* **Social Hub:** simplified chart overlaid with flying danmaku, live chat, live stream. Everything happens simultaneously.
+* **Emotion-Driven Chart:** Danmaku comments race across the chart during pumps and dumps, turning cold price action into a living, breathing crowd reaction. Buy/sell alerts and whale transactions trigger visual effects on the candlestick.
+* **Live Chat + Gift Economy:** Real-time chat integrated directly into the trading interface. Users can send gifts (powered by platform points or tokens) to KOLs, streamers, or helpful community members, triggering on-screen animations.
+* **Live Streaming & Copy-Trading:** KOLs, celebrity traders, and project teams can host live streams inside the token room. Viewers can one-click copy-trade the streamer’s positions directly from the live window. Streamers earn through gifts, trading fee splits, or subscriptions.
+* **Tik-tok style Feed Prioritization:** Tokens with active live streams or high chat volume are prioritized in the discovery feed. Users can swipe between tokens, but each token room is a permanent social+trading destination.
+
+<figure><img src="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2FsTsw8jVUfxE5aeg8gkK5%2Fbanner_realtimechat.png?alt=media&amp;token=ef5ea139-8218-4ed8-9e0e-8651e6a78436" alt=""><figcaption></figcaption></figure>
+
+***Your alpha feed, your community, and your trade button are finally in one place.***
+
+
+# Gamified Execution
+
+**What it is:** A console-style trading experience that replaces complex trading UI with intuitive gamepad controls, real-time order flow visualization, and surprise rewards from trading.
+
+**Detailed Features:**
+
+* **Tofu Arcade:** A gamepad-style UI featuring a green HYPE button (buy) and a red DUMP button (sell). Directional pads let you quickly set order sizes. Unlockable NFT skins for your controller—because your trading weapon should look as cool as your wins.
+* **Live Order Flow:** Community buys and sells flash across the screen like a live-streaming gift barrage. See the crowd’s moves in real time, creating a sense of urgency and excitement.
+* **Trading Drops** (Blind Boxes / Loot Boxes): Earn blind boxes through trading volume or achievements. Open them to reveal XP boosts, platform items, exclusive skins, or even rare NFTs. The more you trade, the more you unlock.
+
+<figure><img src="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2FVACZqtLZnzm826mGv1EH%2FTofu%20Man%20-%20%E9%AA%91%E7%81%AB%E7%AE%AD%E4%B8%8A%E5%8D%87%20-%20Remove%20Hair%20copy%204.png?alt=media&amp;token=308ed9f6-c5e7-470a-8e59-5e8158b5ff8e" alt=""><figcaption></figcaption></figure>
+
+***No complex charts. Just vibes.***
+
+
+# Identity & Legacy
+
+**What it is:** An RPG like progression system that transforms your trading journey into a legacy: unlockable cosmetics, achievements, and a place in the community’s Hall of Fame (or Rekt Memorial).
+
+**Detailed Features:**
+
+* **Unlockable Cosmetics:** Earn dynamic avatars, animated frames, nameplates (like Discord’s Nitro badges), and titles. Each reflects your trading milestones, personality, or clan allegiance.
+* **Hall of Fame:** Glorify massive wins—top traders get their profiles showcased with legendary stats.
+* **Rekt Memorial:** Epic failures become community lore. Your worst loss turns into a story, immortalized for laughs and sympathy. Losses are no longer just numbers—they’re part of your identity.
+* **Achievement System:** Milestone based achievements (e.g., “First $1K Profit,” “Legendary Rekt,” “Consecutive Green Days”). Each achievement unlocks exclusive cosmetics or titles.
+* **Token Conquest Badges:** Earn special badges for achieving different kind of tasks on a specific token (e.g., “Whale of Trump Token”). Show off your conquests on your profile.
+
+<figure><img src="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2FZsWDylhMqszdZcMzSzCd%2FFriend%20List.png?alt=media&amp;token=8cf13030-2dde-4980-8562-1b33e2f00623" alt=""><figcaption></figcaption></figure>
+
+***On other platforms, a loss is a number. On Tofu, it's a story.***
+
+
+# Collective Action
+
+**What it is:** Coordinated, time‑limited trading events where the community moves as one, with the chance to earn boosted rewards.
+
+**Detailed Features:**
+
+* **Together Moments:** Any high level user, KOL, or clan leader can initiate a timed, community wide buying or selling spree. A countdown appears, and everyone can join the coordinated move.
+* **Reward Multipliers:** The platform randomly subsidizes reward multipliers for participants during the event. The more people join, the higher the potential reward—creating a powerful “fear of missing out” (FOMO) effect.
+* **Shared Energy:** These events turn trading into a collective ritual, strengthening community bonds and making every trade feel like a party.
+
+<figure><img src="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2FckYEoPompHbemleFQG7U%2F%E5%9B%BE%E7%89%871.png?alt=media&amp;token=881ef591-31a2-4a73-952f-6ccbbdcd09eb" alt=""><figcaption></figcaption></figure>
+
+***From Shilling to Earning***
+
+
+# Creator Economy
+
+**What it is:** A next-gen community and referral system where clans form around traders and KOLs, compete in clan wars, occupy token territories, and share treasury rewards.
+
+**Detailed Features:**
+
+* **Clan Creation & Recruitment:** KOLs and top traders can create their own clans and recruit members. This upgrades the traditional referral link into a living community.
+* **Clan Treasury:** Funded by trading fee rebates from clan members, winnings from clan wars, and donations. Treasury can be used for direct withdrawals, purchasing game props, or as rewards for active members.
+* **Clan Wars:** Regular competitions where clans compete based on trading activities or specific tasks.
+* **Shared Success:** Clans turn trading into a team sport: members help each other, share strategies, complete challenges or achievement tasks, and celebrate victories together.
+
+<figure><img src="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2FtOxnRMndpvFDWB6lOE0F%2Fbanner_guild.png?alt=media&amp;token=61599d56-d1d9-47d3-94d3-af7bfe41dc5b" alt=""><figcaption></figcaption></figure>
+
+***Referrals are dead. Build your Clan.***
+
+
+# Roadmap
+
+Together.fun’s development follows a deliberate three-phase strategy: from cultural hook, to trading revolution, to the ultimate degen playground.
+
+| **Phase**   | **Deliverables**                                                                                                                                                                                                       | **Goal**                                                                                                                                                           |
+| ----------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Phase 1** |                                                                                                                                                                                                                        |                                                                                                                                                                    |
+| *Q2 2026*   | Launch RugPad Royale on Solana mainnet. Implement XP ranking and NFT character system. Deploy live in-game chat, avatar system, achievements, and social sharing. Launch Creator Rooms beta and onboard meme projects. | Acquire users, build community, and establish Together.fun as the home for degens.                                                                                 |
+| **Phase 2** |                                                                                                                                                                                                                        |                                                                                                                                                                    |
+| *Q3 2026*   | Launch core gamified trading platform (Tofu Arcade). Implement PvP Trading Tournaments and P\&L NFT System. Integrate player profiles, clan systems, and live chatroom and reward system.                              | Launch a fully gamified trading platform that transforms how people trade — replacing complex interfaces with game mechanics, solo trading with social competition |
+| **Phase 3** |                                                                                                                                                                                                                        |                                                                                                                                                                    |
+| *Q4 2026*   | Token Generation Event ($TOFU). Community distribution and liquidity mining. Unify user identity between RugPad Royale and The Arcade. Integrate Game-Fi and Trade-Fi experiences. Develop dedicated mobile app.       | Capture the entire value chain of the degen experience—from discovery and community to gaming and trading.                                                         |
+
+***
+
+##
+
+
+# The Team
+
+Institutional Discipline. Native Cultural Insight.
+
+The Together.fun team combines the rigor of institutional finance with the cultural fluency of digital natives. The founding team hails from a successful hedge fund, bringing deep experience in probability games, market microstructure, risk management, and high-performance trading systems.
+
+<div><figure><img src="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2F3xS9hOd5Nv1s1ozOnBBg%2F%E5%9B%BE%E7%89%872.png?alt=media&amp;token=75679e53-06e6-4b65-a492-7680ecabda27" alt=""><figcaption></figcaption></figure> <figure><img src="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2FuNJ5m2bhLqwJNoLcKcd9%2F%E5%9B%BE%E7%89%874.png?alt=media&amp;token=9c3870a7-6eb7-49d1-9f42-65b70a34298a" alt=""><figcaption></figcaption></figure> <figure><img src="https://1828448262-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FSuuBptX8e0IplA0w4o1P%2Fuploads%2FaO79wSVqXIV3lSw1b6Y8%2F%E5%9B%BE%E7%89%877.png?alt=media&amp;token=b5a145e0-141c-40db-9574-0134bb621150" alt=""><figcaption></figcaption></figure></div>
+
+### Team Differentiators
+
+* **Proven Expertise:** Unparalleled experience in probability games, market microstructure, risk management, and high-performance trading systems.
+* **Unique Product Philosophy:** The ability to see that the future of retail crypto trading isn’t more charts but better experiences—applying rigorous, data-driven backgrounds to a problem purely consumer teams often miss.
+* **Deep Cultural Connection:** A team of digital natives—hardcore gamers and cultural participants who don’t just study the market but live and breathe it.
+
+### Commitment
+
+Together.fun is a well-capitalized, institutional-grade company building for the long term. The team’s background provides a significant moat in technology, financial modeling, and strategic execution that separates Together.fun from fly-by-night operators. We possess the capital, the network, and the patience to execute this multi-phase vision.
+
+
+# Introduction
+
+<figure><img src="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2Fbx4x772wObNCK3oGC3eX%2Frugpad_welcome.png?alt=media&amp;token=d4b0d8dd-9d9e-4205-b760-5f5194ad4e47" alt=""><figcaption></figcaption></figure>
+
+**RugPad Royale** is a satirical, transparent simulation of the memecoin market—a self-aware game that mirrors the chaos of meme trading in a provably fair, fast-paced PvP format. It’s not you versus the house. It’s you versus other degens.
+
+{% embed url="<https://landing.together.fun/hero-bg.mp4>" %}
+
+### Jump right in
+
+<table data-view="cards"><thead><tr><th></th><th></th><th data-hidden data-card-cover data-type="image">Cover image</th><th data-hidden></th><th data-hidden data-card-target data-type="content-ref"></th></tr></thead><tbody><tr><td><h4><i class="fa-bolt">:bolt:</i></h4></td><td><strong>Gameplay Basics</strong></td><td><a href="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2F9zAQGrw53ejWTtIFBN2Q%2Fgame_main.png?alt=media&amp;token=22af6752-c4ff-4f2e-a055-94048d8122c2">game_main.png</a></td><td></td><td><a href="broken://pages/7FvWQMF0kTK7HGhlQfmo">Broken link</a></td></tr><tr><td><h4><i class="fa-leaf">:leaf:</i></h4></td><td><strong>Game Mechanics</strong></td><td><a href="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2FWYbBdQuktZQFuyf8SDrN%2Fconsole.png?alt=media&amp;token=6af14ebf-94b6-416f-b30c-54d2db81976b">console.png</a></td><td></td><td><a href="https://github.com/GitbookIO/gitbook-templates/blob/main/product-docs/broken-reference/README.md">https://github.com/GitbookIO/gitbook-templates/blob/main/product-docs/broken-reference/README.md</a></td></tr><tr><td><h4><i class="fa-globe-pointer">:globe-pointer:</i></h4></td><td><strong>Room Settings</strong></td><td><a href="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2FFmKkfzuC4YoorLsS1VwY%2Froom.png?alt=media&amp;token=4346d85a-c0c9-46e3-8141-7786c51eabe8">room.png</a></td><td></td><td><a href="broken://pages/QPzbTvC6XsT5gERiU43E">Broken link</a></td></tr></tbody></table>
+
+
+# Deposit
+
+Every card on the main screen represents a meme coin out in the crypto trenches.&#x20;
+
+Wanna back a coin? Just smash any card to deposit and ape in!
+
+<figure><img src="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2F9zAQGrw53ejWTtIFBN2Q%2Fgame_main.png?alt=media&amp;token=22af6752-c4ff-4f2e-a055-94048d8122c2" alt=""><figcaption></figcaption></figure>
+
+**Deposit Menu Alpha:**
+
+<figure><img src="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2FCis8L5b0fxA5UWrX2ANC%2Fdeposit.png?alt=media&amp;token=daf55819-2c6d-445e-88da-471f53466f2f" alt=""><figcaption></figcaption></figure>
+
+1. By default, it grabs the bag size you set in the "[Quick Settings](/rugpad-guides/gameplay-basics/quick-settings)" at the bottom. No setup? You're tossing in the room's bare minimum.
+2. Feel free to type in your own custom bag size, or click the preset buttons to quickly adjust your entry.
+3. Smash that **1x**, **5x**, or **10x** button to multiply the "room minimum" and flex on the peasants.
+
+**Disclaimer:** We are 100% on-chain, anon. That means you gotta sign and confirm the transaction in your wallet after clicking. No fake Web2 points here!
+
+
+# Switch
+
+So you aped into a meme, but suddenly got FOMO for another one? Clicking a different card will pop up a prompt asking if you want to **Switch Sector**.
+
+<figure><img src="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2Fd8gBYfsjkp5kdAWD3R6p%2Fswitch.png?alt=media&amp;token=59692827-b9ca-4942-b0a0-563598ccf48c" alt=""><figcaption></figcaption></figure>
+
+If you click "**Confirm**" our smart contracts will magically paper-hand your previous bag and sweep your entire deposit into the new gigachad meme card.
+
+
+# Add
+
+Two ways to pack your bags heavier:
+
+* **DCA into your winner:** Still bullish on your current card? Just click it again to add more juice. You can keep slamming that deposit button until the game locks.
+
+<figure><img src="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2FvIVcEHXL7pzdQ2122Zwi%2Fsameroom.png?alt=media&amp;token=6442e044-c19c-4991-87ca-ff3c6a49821a" alt=""><figcaption></figcaption></figure>
+
+* **The Ultimate Pivot & Pump:** Wanna switch teams and ape harder? Click a new card and select **Add More Bid**.\
+  2.1 Type in the extra spicy amount you want to drop.\
+  2.2 Hit confirm, and BOOM—your previous bag plus the new funds are all swept into the new card. True degen move!
+
+<figure><img src="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2Fd8gBYfsjkp5kdAWD3R6p%2Fswitch.png?alt=media&amp;token=59692827-b9ca-4942-b0a0-563598ccf48c" alt=""><figcaption></figcaption></figure>
+
+
+# Cancel
+
+Got cold feet before the game locks? We gotchu. You can pull your liquidity (withdraw) in two ways:
+
+* Click the card you're currently in, look under the amount input, and smash that "Withdraw" button.
+
+<figure><img src="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2Fbkvja9yVT4x1lFRdAHpt%2Fwithdraw.png?alt=media&amp;token=16eb13fe-fbdc-4bfc-9fbe-f98b7b9f7fd9" alt=""><figcaption></figcaption></figure>
+
+* Find your beautiful PFP at the bottom of the screen and hit the "Cancel Bid" button right below it. Coward. (Just kidding, risk management is key 🧠).
+
+<figure><img src="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2FODIm4WklQrwPle3k1fBj%2Fcancel.png?alt=media&amp;token=57ab05b5-a78f-4ff0-bf80-54f651624846" alt=""><figcaption></figcaption></figure>
+
+
+# Quick Settings
+
+Look down at the bottom—that's your degen command center. It packs the following features:
+
+<figure><img src="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2FWYbBdQuktZQFuyf8SDrN%2Fconsole.png?alt=media&amp;token=6af14ebf-94b6-416f-b30c-54d2db81976b" alt=""><figcaption></figcaption></figure>
+
+* **The Waiting Room (Lobby):** Your avatar sits right here. The space behind you is the waiting area showing all the other apes in the room ready to battle.<br>
+* **Balance:** Your cold, hard $SOL balance. Don't go to zero.<br>
+* **Quick Bet Set:** The ultimate tool for lazy degens. Type in an amount or set a multiple of the "room minimum." Once set, this becomes your default "One-Click Ape" size for all future clicks. Don't worry, if you want to change your bet size mid-game, you can still tweak it manually in the deposit window.
+
+
+# Win Probability
+
+Math time, anon. Ignoring gas and fees, we designed this so the long-term Expected Value (EV) for every player and card is perfectly balanced.
+
+**TL;DR:** The higher the Total Value Locked (TVL) on a card, the higher its chance to win. The bigger your share of that card, the bigger your slice of the loot!
+
+**How the Algorithm Picks the Winning Meme:**
+
+1. Every card absorbs all player deposits into one giant liquidity pool (the Card's Total Amount).
+2. All 9 cards are weighed against each other based on their bags.
+3. A card’s win rate = (Its Total Amount) / (Total Amount of all 9 cards combined).
+4. All probabilities add up to 100% (1). Pure math, zero cap.
+
+**How We Distribute the Loot (Payouts):**\
+When a winning card is confirmed, here’s how the chads get paid:
+
+1. **The Prize Pool:** The Total Payout is made up of ALL the tears and deposits from the losing cards.
+2. **The Split:** Inside the winning card, the loot is distributed based on the weight of each player's deposit. (If you hold 50% of the winning card's TVL, you get 50% of the loser's money).
+3. Bottom line: Total Payout to the winning players = Total money lost by the rugged cards.
+
+
+# Avatars & NFTs
+
+When you enter the arena, you get to pick your Web3 identity. Choose your fighter from our three default Tofus:
+
+<figure><img src="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2FlAssim7YfUHARHVtJXN4%2Fdefaultnft.png?alt=media&amp;token=2db4201c-6933-46ab-9a08-dbe0a9667a57" alt=""><figcaption></figcaption></figure>
+
+* **Silken Tofu:** Soft, smooth, and easily crushed. This is the ultimate Web3 noob. Buys the top, sells the bottom. Gets rugged by "devs" weekly but still blindly believes in the tech. WAGMI... right?
+* **Koya Tofu:** Freeze-dried, aged, and diamond-handed. This boomer tofu survived the FTX crash and the Luna death spiral. Completely numb to volatility. HODLs everything to zero or Valhalla.
+* **Furu Tofu (Fermented):** Smelly, toxic, but highly cultured. This is the absolute trench-diving degen. Snipes fresh pump.fun pairs at 3 AM, speaks exclusively in "gm" and "LFG," and probably runs a meme coin cabal.
+
+**Upgrade to the PFP Meta (NFTs):**\
+Tired of the defaults? You can earn exclusive NFT avatars by grinding our regular Campaigns and the Achievement system.
+
+<figure><img src="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2FPMUCny8w3YBTc8VvwE1m%2Fnft.png?alt=media&amp;token=a77d9172-1f7b-44ae-b3ff-0d5490bf95ba" alt=""><figcaption></figcaption></figure>
+
+These aren't just right-click-save JPEGs. They pack actual utility:
+
+* **XP Boost:** Different rarities give you different XP multipliers. Rarer JPEG = massive XP farming.
+
+**Future Perks:**&#x20;
+
+When our TOFU trading platform launches, your NFTs can be swapped for items and rewards.
+
+* **The Magic Word ("Wen?"):** Yes, holding these NFTs is a major reference point for the future TOFU ecosystem **Airdrop** and token allocations. 👀
+
+*PS: NFT transfers are disabled for now because they are key to the ecosystem's early growth. Once the major Airdrop is done, we'll unlock the gates. Stay tuned on our X for updates!*
+
+
+# Referral
+
+Time to yield-farm your friends! Shill your invite link to your network.&#x20;
+
+<figure><img src="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2Fxw2aL1l1hTpppvaIA2YU%2Fref1.png?alt=media&amp;token=49e25b16-ac8a-4910-bb0e-5f337fcb5e9b" alt=""><figcaption></figcaption></figure>
+
+**Here’s the alpha:** when your invited buddy gets rekt (loses a game) and their funds go into the prize pool, you get to scrape a percentage of their lost deposit as a sweet reward!
+
+<figure><img src="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2FEltjemnlhRRrVzmN2aLm%2Fref2.png?alt=media&amp;token=c43a07f5-137e-405d-b744-9c4603d8d87b" alt=""><figcaption></figcaption></figure>
+
+Essentially, your friends are your exit liquidity.
+
+
+# Create a Room
+
+<figure><img src="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2F083YhBbY0hfWzHQtwY00%2Fcreate.png?alt=media&amp;token=b96ab4a9-2684-4f26-9f69-3b87bb701183" alt=""><figcaption></figcaption></figure>
+
+Want to run your own underground fight club? You can create a custom game room! Keep it exclusive by setting a wallet whitelist for your private Alpha Group, or open the gates to the public.
+
+**Creator Tax (Dev Fee):**\
+When setting up the room, the Creator (You) can set a fixed fee percentage. A slice of the game's prize pool (the losers' deposits) will be automatically sent to your wallet as a reward for hosting.
+
+<figure><img src="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2FwqgcewhrvA8eYLzEXJLu%2Fcreateroom.png?alt=media&amp;token=cf6ad411-07c3-4462-920d-304b0f4381cc" alt=""><figcaption></figcaption></figure>
+
+**Note:** The official public rooms created by the **Together.Fun** platform charge **ZERO creator fees**. This tax only applies to player-created rooms.
+
+
+# Game Modes
+
+The board always has 9 sectors, but we offer two totally different ways to gamble your bags:
+
+* **1/9 Mode (The Moonshot):** 1 sector goes to the moon, 8 sectors get completely rugged. High risk, massive multiplier!
+* **8/9 Mode (The Rug Roulette):** 8 sectors survive and print, only 1 sector gets rugged to zero. A safer play, unless you happen to be the unlucky exit liquidity for the rest of the room.
+
+<figure><img src="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2FFmKkfzuC4YoorLsS1VwY%2Froom.png?alt=media&amp;token=4346d85a-c0c9-46e3-8141-7786c51eabe8" alt=""><figcaption></figcaption></figure>
+
+
+# Future Airdrop & Rewards
+
+We know exactly why you're digging through the docs, anon. You're looking for the alpha. You want to know: "What’s in it for me long-term?"
+
+We respect the hustle. Whether you are a hardcore degen, a meme-lover, or a professional airdrop hunter, we want to make one thing absolutely clear: **Your activity today builds your wealth tomorrow.**
+
+<figure><img src="https://1063129450-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2F6fG2KrPO0eiQGbKh4sWM%2Fuploads%2Ft8NaE5txGcAZeiqZcvhX%2FTofu%20Man%20-%20%E6%8A%B1%E5%AE%9D%E7%AE%B1%E5%BA%86%E7%A5%9D%20-%20Wider%20Head%20copy.png?alt=media&amp;token=13645571-5b46-4e25-93e0-a41b17eb862c" alt=""><figcaption></figcaption></figure>
+
+Here is the ultimate roadmap for how your early grind in Season 1 translates into future $TOFU rewards.
+
+### XP to $TOFU (The Grind Pays Off)
+
+Let's address the elephant in the room. All that XP you are farming during Phase 1 isn't just for flexing on the leaderboard. It is your direct ticket to the **$TOFU Airdrop** at our Token Generation Event (TGE).
+
+We aren't dropping the exact mathematical conversion ratios just yet (nice try, sybil farmers), but we give you our firm commitment: **Every single XP point you accumulate now will be factored into your $TOFU airdrop allocation.** Play the game, survive the rugs, stack the XP, and secure the bag.
+
+### NFT Multipliers (JPEG Utility)
+
+Remember those Tofu avatars and NFTs we talked about? They are way more than just cute PFPs to right-click and save.
+
+In the Together.fun ecosystem, your NFT holdings are serious yield-boosting assets. The **Type, Rarity, and Quantity** of the NFTs you hold will serve as a massive additional factor in determining your final airdrop allocation.\
+TL;DR: Higher rarity = Heavier weight in the snapshot. Stack them, HODL them, and boost your airdrop size.
+
+### The Cross-Platform Degen Identity
+
+Together.fun is building a massive ecosystem, not just a single game. Your wallet activity and on-chain footprint from RugPad Royale (Phase 1) won't disappear when the season ends.
+
+Instead, it will be seamlessly linked to your bag on our future gamified social trading platform. The reputation, stats, and assets you build in the trenches today will grant you VIP status, early access, and unique perks across the entire Together.fun ecosystem tomorrow.
+
+### Wen Token? (The Timeline)
+
+We know your favorite question in the trenches is "Wen token? Wen airdrop?"
+
+Instead of staring at a boring roadmap, **keep your eyes glued to** [**our X (Twitter)**](https://x.com/togetherdotfun) **and smash that notification bell!** 🔔
+
+All the spicy alpha regarding the official $TOFU Token Generation Event (TGE), massive community distribution, and liquidity mining (officially targeted for **Q4 2026**) will be dropped straight into your timeline. Turn on notifs so you don't miss the payload.&#x20;
+
+**Farm early, stay tuned, and feast later!**
+
+### Disclaimer (The Boring But Necessary Stuff)
+
+All specific details, tokenomics, and mechanics are subject to change. The final exact airdrop allocation criteria and formulas will be announced closer to the TGE. This flexibility protects the project, outsmarts malicious botnets, and ensures we can fairly reward our genuine, diamond-handed community members.
+
+
+# Introduction
+
+<figure><img src="https://2219441295-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FUirTy3OM4DvMBrVax6Zb%2Fuploads%2F7FSeHqzSOFT9fvUNgG9R%2Fbanner.png?alt=media&amp;token=b641f6a5-6024-4aeb-9ad9-ad812cddf6bf" alt=""><figcaption></figcaption></figure>
+
+**Together.fun** is a gamified trading platform built for the modern crypto participant: the degen, the meme-lover, the alpha hunter, where trading, gaming, and community merge into one entertainment layer. Our platform transforms trading from a technical, isolating process into a social, visual, and emotionally engaging experience.
+
+<h4 align="center"><mark style="color:$primary;"><strong>Coming Soon</strong></mark></h4>
+
+
+# Coming Soon
+
+<figure><img src="https://2219441295-files.gitbook.io/~/files/v0/b/gitbook-x-prod.appspot.com/o/spaces%2FUirTy3OM4DvMBrVax6Zb%2Fuploads%2FIPYSsi4BkPDfB1Y1p3GO%2Fpic.png?alt=media&amp;token=b6abab6a-2550-410a-8ef3-927add775d0f" alt=""><figcaption></figcaption></figure>
+
+

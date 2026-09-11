@@ -1,0 +1,51 @@
+---
+alwaysApply: true
+---
+
+# TOFU Public Docs 项目规则
+
+本仓库 = Together.fun (TOFU) 的**对外公开文档站**（目标域名 docs.together.fun），
+替代原 GitBook。项目全貌、决策链、视觉参数、待办路线图见根目录 `HANDOVER.md`（必读）。
+
+## 1. 事实源（禁止凭空编造功能）
+
+文档描述的每个功能都必须与产品实际一致。查证顺序：
+
+| 事实源 | 本地路径 | 说明 |
+|---|---|---|
+| **前端仓库**（功能真相） | `D:\TOFU_website` | 页面在 `apps/web/app/**`，组件在 `apps/web/components/**`；产品上下文/五大支柱/命名表在其 `.cursor/rules/tofu.mdc`（本仓库 rules 下有副本） |
+| **后端仓库**（只读参考） | `D:\TOFU_backend` | API/协议/系统行为查证用；GitHub: guoqianghao9/amzdex，分支 `codex/packages-submodule` |
+| 线上产品 | 本地 dev（前端仓库 `pnpm --filter @tofu/web dev`，staging 后端）或生产站 | 截图与行为核实 |
+
+- 两个关联仓库都是**只读**：绝不修改 `D:\TOFU_website` 与 `D:\TOFU_backend` 的任何文件。
+- 未上线功能（截稿时：Store / Streaming / Clans / Rekt Graveyard）必须带 `🚧 Coming Soon` 标注，
+  上线后移除。拿不准是否上线 → 去前端跑起来看，占位页文案是 "TOFU boy is cooking"。
+
+## 2. 品牌与术语（单一口径）
+
+- 品牌色：绿 `#14F195` + 近黑 `#010502`（docs 站底色）/ `#030303`（产品）。完整色板见 HANDOVER §5。
+- 链口径：交易平台 = **powered by Hyperliquid**；Solana 只出现在 Season 1（RugPad）历史回顾。
+- 术语表（与产品 UI 一致，禁止自创译法）：买=**HYPE**、卖=**DUMP**、盲盒=**Trading Drops**、
+  弹幕=**Danmaku**、工会=**Clan**、每 token 进度=**Token Cabal**、社区活动=**Together Moments**。
+- Slogan：**Together, We Farm Fun.**
+
+## 3. 写作约定
+
+- 正文**英文**，与用户沟通用中文。
+- 文风：degen-friendly——短句、直接、适度玩梗（anon / rekt / WAGMI 级别），每页可用一句
+  斜体 punchline 收尾（沿用旧站传统）；但**功能描述部分必须准确具体**，梗不能牺牲信息量。
+- 页面结构惯例：H1 + 一句定位 → 功能分节（H3）→ punchline。表格用于对比/枚举，不堆砌。
+- 图片：截图存 `assets/screenshots/`、品牌素材存 `assets/brand/`；稿内占位符
+  `<!-- IMG: 描述 -->` 替换为真实图后删除占位注释。截图规范见 `assets/SHOT_LIST.md`。
+
+## 4. 技术栈约束（建站时）
+
+- 框架 Astro Starlight，部署 Cloudflare，域名 docs.together.fun。细节与主题变量映射见 HANDOVER §2/§5。
+- Cloudflare 写操作前必跑 `npx wrangler whoami`，确认账号 = togetherdotfun@gmail.com
+  （Account ID `b8140c8a0079e161f4fa0784b63609a4`）——本机 wrangler 登录被多项目共用，会被切走。
+- 依赖管理用 pnpm；保持依赖最少（astro + starlight + 必要插件）。
+
+## 5. Git 约定
+
+- GitHub: https://github.com/together-fun/tofu-public-docs
+- commit message 英文（`feat(docs): ...` / `content(arcade): ...` 风格）；**不要 push，除非用户明确要求**。

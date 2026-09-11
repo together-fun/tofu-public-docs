@@ -1,0 +1,131 @@
+---
+description: TOFU Project - Gamified Social Trading Platform on Hyperliquid. Brand identity, design system, and core feature specifications.
+alwaysApply: true
+---
+
+# TOFU Project Context & Rules
+
+## 1. Project Overview & Vision
+
+**TOFU (Together.fun)** is a **Web3 Gamified Social Trading Platform** built on Hyperliquid. It transforms trading from a solitary, technical activity into a social, visual, and emotionally engaging experience.
+
+- **Core Vision**: Social-First (Danmaku/Chat/Streaming), Gamification (XP/Leveling/Clan/Loot Boxes), High Performance (Edge Computing on Vercel + Cloudflare)
+- **Target Audience**: Degens, meme lovers, alpha hunters, KOLs, and crypto-native users raised on Fortnite, Twitch, Telegram, and memes.
+- **Value Proposition**: Where trading, gaming, and community merge into one entertainment layer.
+
+
+## 2. Brand Identity & Visual Language
+
+- **Primary Colors**: Green `#14F195` and Black `#030303`
+- **Accent Colors**: `#9945FF`, `#27FBE2`, `#F357E2`, `#FAF518` (can be used for highlights, status indicators, and special elements)
+
+
+## 3. Core Features (Five Pillars)
+
+### Pillar 1: All-in-One Social Trading Hub
+
+A multi-dimensional live space where charts, danmaku, live chat, and streams converge in real time.
+
+| Component | Implementation Requirements |
+|-----------|----------------------------|
+| **Chart + Danmaku Overlay** | TradingView lightweight-charts with transparent Canvas overlay for danmaku. Danmaku must not block chart interaction. |
+| **Live Chat** | Real-time chat using party-server (WebSocket). Messages displayed with user avatars, badges, and gift animations. |
+| **Live Streaming** | Embedded video stream (WebRTC/RTMP). Streamer info displayed with one-click copy-trade button. |
+| **Gift Economy** | Gift sending UI with on-screen animations (Lottie/Rive). Gifts deducted from points/tokens. |
+| **Discovery Feed** | TikTok-style swipeable cards prioritizing tokens with active streams or high engagement. |
+
+### Pillar 2: Gamified Execution (Tofu Arcade)
+
+Console-style trading experience replacing complex order books with gamepad controls.
+
+| Component | Implementation Requirements |
+|-----------|----------------------------|
+| **Gamepad UI** | Visual controller with green HYPE (buy) and red DUMP (sell) buttons. Directional pads for order size presets. |
+| **Order Flow Visualization** | Real-time buy/sell notifications flashing across screen (similar to live stream gifts). Show user avatar, action, and size. |
+| **Controller Skins** | Unlockable NFT-based skins for the gamepad UI. Each skin has unique visual effects. |
+| **Order Confirmation** | Haptic feedback (if supported) and animated confirmation with sound effects. |
+
+### Pillar 3: Identity & Legacy System
+
+RPG-like progression system turning trading journey into a legacy.
+
+| Component | Implementation Requirements |
+|-----------|----------------------------|
+| **XP & Leveling** | Users earn XP based on trading volume, achievements, and engagement. Level displayed as badge next to username. |
+| **Token Cabal** | Users accumulate token-specific XP by trading a given token. Reaching milestones unlocks: <ul><li>**Token Badge** – a visual emblem displayed on profile and in chat, showing mastery of that token.</li><li>**Token Room Privileges** – progressive permissions such as being able to chat, send danmaku, and receive entry notifications inside that token’s room.</li><li>**Exclusive Icon** – a unique icon representing the user’s bond with that token (e.g., a mini‑logo or custom symbol).</li></ul> Token Cabal progress is tracked per token and is visible to others, encouraging loyalty and social status within token communities. |
+| **Unlockable Cosmetics** | Avatars, frames, nameplates, titles. Each cosmetic tied to specific achievement or milestone. |
+| **Achievement System** | Milestone achievements (e.g., "First $1K Profit," "Legendary Rekt," "Consecutive Green Days"). Visual badges displayed on profile. |
+| **Hall of Fame** | Leaderboard of top traders by PnL, volume, or engagement. Legendary stats and profile showcase. |
+| **Rekt Memorial** | Community wall for epic losses. Users can submit their worst trades for display (with optional anonymity). |
+
+### Pillar 4: Together Moments
+
+Coordinated, time-limited trading events where the community moves as one.
+
+| Component | Implementation Requirements |
+|-----------|----------------------------|
+| **Event Initiation** | High-level users, KOLs, or clan leaders can initiate timed buying/selling events. Countdown timer displayed prominently. |
+| **Reward Multipliers** | Platform-subsidized reward multipliers for participants. Higher participation = higher potential rewards. |
+| **Event UI** | Special event banner, countdown, participant counter, and real-time total volume. Animated effects during active events. |
+
+### Pillar 5: Creator Economy (Clan System)
+
+Next-gen community and referral system where clans form around traders and KOLs.
+
+| Component | Implementation Requirements |
+|-----------|----------------------------|
+| **Clan Creation** | Users with sufficient level/trading volume can create clans. Customizable name, avatar, banner, and description. |
+| **Clan Treasury** | Smart contract or database-managed treasury funded by fee rebates, war winnings, and donations. Members can withdraw or use treasury for game props. |
+| **Clan Wars** | Time-limited competitions based on trading volume or specific tasks. Winners occupy token rooms and receive fee splits. |
+| **Token Room Occupation** | Winning clan's info displayed on token trading page for a set period. Occupying clan receives portion of token's trading fees. |
+| **Clan Badges** | Custom animated frames, titles, or NFT badges for clan members. Displayed alongside username in chat and profiles. |
+
+
+## 4. Technical Constraints (Referencing Stack Rules)
+
+This project MUST follow the technical stack defined in the main project rules. Key reminders:
+
+- **Frontend**: Next.js App Router, React 19, Tailwind CSS v4, shadcn/ui
+- **Backend**: Cloudflare Workers with Hono, D1, R2, Queues
+- **Web3**: wagmi + viem + RainbowKit for wallet connection
+- **Real-time**: party-server for WebSocket (chat, danmaku, order flow)
+- **State Management**: zustand with transient updates for high-frequency data
+- **Animations**: framer-motion for UI transitions, Lottie/Rive for gift/event effects
+- **Precision**: Use decimal.js or bignumber.js for all financial calculations
+
+
+## 5. User Experience Principles
+
+- **Social-First**: Every trading action should have a social component—visible to others, commentable, or shareable.
+- **Instant Feedback**: All interactions (clicks, trades, gift sending) must have immediate visual/audio feedback.
+- **Emotion-Driven**: Price movements should trigger crowd reactions (danmaku, visual effects). Cold charts become living experiences.
+- **Mobile-First**: All UI must work seamlessly on mobile, with touch-friendly hit areas and responsive layouts.
+- **Progressive Disclosure**: Complex features (clans, loot boxes) should be discoverable but not overwhelming to new users.
+- **Community Recognition**: User contributions (trades, engagement, leadership) must be visibly rewarded and celebrated.
+
+
+## 6. Design Principles
+
+- **Dark by Default**: Black background with neon green accents. Light mode is not required.
+- **Consistent Animation Language**: All animations should feel responsive and energetic, not sluggish.
+- **Typography Hierarchy**: Clear distinction between headings, body text, and monospace data.
+- **Accessibility**: Sufficient contrast ratios, keyboard navigation, ARIA labels for interactive elements.
+
+
+## 7. Naming Conventions (TOFU-Specific)
+
+| Term | Usage |
+|------|-------|
+| **TOFU** | Brand shorthand; used in product name, domain, and internal references |
+| **Tofu Arcade** | The gamified trading interface (gamepad controls) |
+| **HYPE** | Buy action |
+| **DUMP** | Sell action |
+| **Together Moments** | Coordinated community trading events |
+| **Trading Drops** | Loot boxes earned through trading volume |
+| **Clan Wars** | Clan competitions for token room occupation |
+| **Rekt Memorial** | Community wall for epic trading losses |
+| **Token Cabal** | Per-token progression system granting badges and room privileges |
+
+
+**This document defines the identity, visual language, and core features of TOFU. All generated UI components, pages, and features must align with these specifications.**
+
