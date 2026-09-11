@@ -1,4 +1,7 @@
-# Live Streaming
+---
+title: Live Streaming
+description: Live streams inside the platform — stream rooms, PK mode, multi-stream, and discovery. Coming soon.
+---
 
 > 🚧 **Coming Soon** — streaming is cooking and will roll out in an upcoming release.
 

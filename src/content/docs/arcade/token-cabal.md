@@ -1,4 +1,7 @@
-# Token Cabal
+---
+title: Token Cabal
+description: Per-token mastery on TOFU — token XP, cabal ranks, badges, and room privileges.
+---
 
 Per-token mastery. Prove you're the whale of your coin.
 

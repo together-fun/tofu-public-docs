@@ -1,8 +1,26 @@
-# Welcome to TOFU
+---
+title: Welcome to TOFU
+description: Together.fun (TOFU) is a gamified social trading platform where trading, entertainment, and community collide. Together, We Farm Fun.
+template: splash
+hero:
+  tagline: The cultural hub where trading, entertainment, and community collide — think <em>Robinhood meets TikTok meets Twitch, powered by Web3 principles</em>.
+  image:
+    file: ../../assets/brand/tofu-girl-inviting.png
+    alt: Tofu Man illustration inviting you in
+  actions:
+    - text: Enter the Trading Arcade
+      link: /arcade/introduction/
+      icon: rocket
+      variant: primary
+    - text: Why TOFU?
+      link: /tofu-docs/the-problem/
+      icon: right-arrow
+      variant: minimal
+---
 
-**Together.fun (TOFU)** is a gamified social trading platform built for the modern crypto participant: the degen, the meme-lover, the alpha hunter. We are the cultural hub where trading, entertainment, and community collide — think *Robinhood meets TikTok meets Twitch, powered by Web3 principles*.
+import { CardGrid, LinkCard } from '@astrojs/starlight/components';
 
-<!-- IMG: Tofu Man hero illustration (reuse existing "Tofu Man - Short Arm Inviting Gesture.png") -->
+**Together.fun (TOFU)** is a gamified social trading platform built for the modern crypto participant: the degen, the meme-lover, the alpha hunter.
 
 ### Brand Identity
 
@@ -27,10 +45,24 @@ The old world of trading is lonely, complex, and joyless. Charts on one tab, alp
 
 Join us. Let's farm it together.
 
+![Tofu rocket mascot](../../assets/brand/mascot-rocket.webp)
+
 ### Jump right in
 
-<!-- CARDS: 
-  1. The Tofu Arcade — Trade, chat, and level up (link: arcade overview / Arcade space introduction) [IMG: trade page screenshot]
-  2. Why TOFU — The problem, the solution, the landscape (link: the-problem) [IMG: Tofu Man rocket]
-  3. The Team — Institutional Discipline. Native Cultural Insight. (link: the-team) [IMG: existing team image]
--->
+<CardGrid>
+  <LinkCard
+    title="The Tofu Arcade"
+    description="Trade, chat, and level up — the five pillars of gamified trading."
+    href="/tofu-docs/arcade-overview/"
+  />
+  <LinkCard
+    title="Why TOFU"
+    description="The problem, the solution, the landscape."
+    href="/tofu-docs/the-problem/"
+  />
+  <LinkCard
+    title="The Team"
+    description="Institutional Discipline. Native Cultural Insight."
+    href="/tofu-docs/the-team/"
+  />
+</CardGrid>

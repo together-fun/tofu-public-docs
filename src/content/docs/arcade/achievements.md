@@ -1,4 +1,7 @@
-# Achievements
+---
+title: Achievements
+description: Milestones become badges, badges become bragging rights — trading, social, and collection achievements.
+---
 
 Milestones become badges. Badges become bragging rights.
 

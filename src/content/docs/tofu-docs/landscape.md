@@ -1,4 +1,7 @@
-# Landscape
+---
+title: Landscape
+description: Where Together.fun sits at the intersection of gamified trading, social platforms, and Web3 gaming.
+---
 
 Together.fun occupies a unique position at the intersection of gamified trading, social platforms, and Web3 gaming. While individual competitors exist in each vertical, no platform unifies all three:
 

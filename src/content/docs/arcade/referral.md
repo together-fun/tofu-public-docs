@@ -1,4 +1,7 @@
-# Referral
+---
+title: Referral
+description: Bring your people and earn a share of their trading activity — automatically, forever.
+---
 
 Bring your people. Get paid for it.
 
@@ -12,6 +15,6 @@ Bring your people. Get paid for it.
 
 ### Stack it with Clans
 
-Referrals are the entry level; **Clans** are the endgame. Invite enough people and you're not a referrer anymore — you're a clan leader with a treasury. See [Clans](./clans.md) for the full creator economy.
+Referrals are the entry level; **Clans** are the endgame. Invite enough people and you're not a referrer anymore — you're a clan leader with a treasury. See [Clans](/arcade/clans/) for the full creator economy.
 
 ***Your network is your net worth. Literally.***

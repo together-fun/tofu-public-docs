@@ -1,4 +1,7 @@
-# Leaderboard & Rekt Graveyard
+---
+title: Leaderboard & Rekt Graveyard
+description: The Hall of Fame for top traders — and the community wall for epic losses.
+---
 
 Glory on one page. Lore on the other.
 
@@ -6,7 +9,7 @@ Glory on one page. Lore on the other.
 
 The Hall of Fame — top traders ranked by PnL, volume, and engagement:
 
-<!-- IMG: leaderboard page screenshot (Top 3 podium) -->
+![The TOFU leaderboard with Top 3 podium](../../../assets/screenshots/leaderboard.png)
 
 * **The podium** — Top 3 get the spotlight treatment: showcased profiles with full cosmetic glory (this is why you equipped that Legendary frame).
 * **Full rankings** with level badges, clan tags, and equipped nameplates on display.

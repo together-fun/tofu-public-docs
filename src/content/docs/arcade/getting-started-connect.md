@@ -1,4 +1,7 @@
-# Connect & Enable Trading
+---
+title: Connect & Enable Trading
+description: Connect a wallet and enable trading on TOFU — both steps take under a minute.
+---
 
 Two steps stand between you and your first HYPE: connect a wallet, then enable trading. Both take under a minute.
 
@@ -26,4 +29,4 @@ To chat, send danmaku, receive gifts, and earn XP, the platform signs you in wit
 
 ***
 
-**Next:** fund your account → [Deposit & Withdraw](./getting-started-funds.md)
+**Next:** fund your account → [Deposit & Withdraw](/arcade/getting-started-funds/)

@@ -1,4 +1,7 @@
-# Roadmap
+---
+title: Roadmap
+description: Together.fun's three-phase strategy — from cultural hook, to trading revolution, to the ultimate degen playground.
+---
 
 Together.fun's development follows a deliberate three-phase strategy: from cultural hook, to trading revolution, to the ultimate degen playground.
 

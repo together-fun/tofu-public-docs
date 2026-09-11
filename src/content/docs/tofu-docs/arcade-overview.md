@@ -1,8 +1,11 @@
-# The Tofu Arcade
+---
+title: The Tofu Arcade
+description: A fully gamified social trading experience built on five pillars — the main stage of Together.fun.
+---
 
 A fully gamified social trading experience — the main stage of Together.fun.
 
-<!-- IMG: banner_gm.png (reuse existing) or fresh full trade-page screenshot -->
+![The Tofu Arcade banner](../../../assets/brand/banner-gm.png)
 
 The Tofu Arcade is where everything we believe about trading comes together: real markets, live community, and game mechanics that make every trade feel like play. It is built on five pillars:
 
@@ -28,4 +31,4 @@ Clans form around KOLs and top traders. Clan treasuries, clan wars, token room o
 
 ***
 
-→ Full feature documentation lives in the **TOFU Trading Arcade** section: getting started, trading interface, chat & danmaku, gifts, cosmetics, levels, blind boxes, clans, and more.
+→ Full feature documentation lives in the **[TOFU Trading Arcade](/arcade/introduction/)** section: getting started, trading interface, chat & danmaku, gifts, cosmetics, levels, blind boxes, clans, and more.

@@ -1,4 +1,7 @@
-# Avatars & Cosmetics
+---
+title: Avatars & Cosmetics
+description: Avatars, frames, nameplates, and danmaku styles — every piece earned or collected, with rarity tiers.
+---
 
 Your look is your legacy. Dress accordingly.
 
@@ -31,7 +34,7 @@ Your profile houses your collection:
 
 The full collection index — every item that exists on the platform, including the ones you don't own yet. Track your completion, scout what's still obtainable, and covet the Limited pieces you missed.
 
-<!-- IMG: gallery page screenshot -->
+![The Gallery — the full cosmetics collection index](../../../assets/screenshots/gallery-page.png)
 
 ### How to get cosmetics
 

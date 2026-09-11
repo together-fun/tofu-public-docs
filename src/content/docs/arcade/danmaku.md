@@ -1,4 +1,7 @@
-# Danmaku
+---
+title: Danmaku
+description: Bullet comments that fly across the chart in real time — TOFU's signature social layer.
+---
 
 Comments that fly across the chart. Price action becomes a crowd experience.
 

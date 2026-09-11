@@ -1,4 +1,7 @@
-# The Solution
+---
+title: The Solution
+description: Together.fun — the first platform built on a fundamental truth of web3 - vibes are the new value.
+---
 
 Together.fun
 
@@ -8,7 +11,7 @@ If the market is a casino, we're building the most fun casino on the internet. I
 
 ### Core Value Propositions
 
-<!-- IMG: Tofu Man illustration (reuse existing) -->
+![Tofu Man trader illustration](../../../assets/brand/tofu-trader.webp)
 
 #### All-in-One Social Trading Hub
 
@@ -30,4 +33,4 @@ Coordinated, time-limited trading events where the community moves as one, with 
 
 A next-gen community and referral system where clans form around KOLs, compete in clan wars, occupy token territories, and share treasury rewards.
 
-→ Dive into every feature in the **TOFU Trading Arcade** docs.
+→ Dive into every feature in the **[TOFU Trading Arcade](/arcade/introduction/)** docs.

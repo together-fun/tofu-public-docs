@@ -1,4 +1,7 @@
-# Gifts & Red Envelopes
+---
+title: Gifts & Red Envelopes
+description: Send gifts with on-screen animations and drop red envelopes for the room to claim.
+---
 
 Make it rain. Reward the alpha. Celebrate together.
 

@@ -1,4 +1,7 @@
-# Store
+---
+title: Store
+description: Direct access to cosmetics, blind boxes, consumables, and points recharge. Coming soon.
+---
 
 > 🚧 **Coming Soon** — the Store is cooking and will open in an upcoming release.
 

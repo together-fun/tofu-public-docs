@@ -1,4 +1,7 @@
-# XP & Levels
+---
+title: XP & Levels
+description: Every trade earns XP, and every level tells the world who you are — including at TGE.
+---
 
 Every trade earns XP. Every level tells the world who you are.
 

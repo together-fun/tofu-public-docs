@@ -1,10 +1,17 @@
-# The Team
+---
+title: The Team
+description: Institutional discipline meets native cultural insight — the team behind Together.fun.
+---
 
 Institutional Discipline. Native Cultural Insight.
 
 The Together.fun team combines the rigor of institutional finance with the cultural fluency of digital natives. The founding team hails from a successful hedge fund, bringing deep experience in probability games, market microstructure, risk management, and high-performance trading systems.
 
-<!-- IMG: existing team images (图片2 / 图片4 / 图片7) -->
+![TOFU team](../../../assets/brand/team-2.png)
+
+![TOFU team culture](../../../assets/brand/team-4.png)
+
+![TOFU team at work](../../../assets/brand/team-7.png)
 
 ### Team Differentiators
 

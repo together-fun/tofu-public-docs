@@ -1,4 +1,7 @@
-# Portfolio & History
+---
+title: Portfolio & History
+description: Your trading story, fully receipted — balances, PnL calendar, complete history, and your public profile.
+---
 
 Your trading story, fully receipted.
 

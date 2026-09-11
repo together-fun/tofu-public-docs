@@ -1,4 +1,7 @@
-# The Problem
+---
+title: The Problem
+description: Trading is broken — fractured workflows and tools built for the wrong user.
+---
 
 Trading Is Broken
 

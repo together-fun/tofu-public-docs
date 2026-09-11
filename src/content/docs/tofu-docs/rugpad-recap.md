@@ -1,8 +1,11 @@
-# Season 1: RugPad Royale (Recap)
+---
+title: "Season 1: RugPad Royale (Recap)"
+description: A recap of RugPad Royale — Together.fun's Season 1, a provably fair PvP simulation of the memecoin market on Solana.
+---
 
 Before the Arcade, there was the arena.
 
-<!-- IMG: RugPad game_main.png (reuse existing) -->
+![RugPad Royale game board](../../../assets/brand/rugpad-game-main.png)
 
 **RugPad Royale** was Together.fun's Season 1 — a satirical, provably fair PvP simulation of the memecoin market on Solana. Nine meme-themed sectors, one on-chain VRF verdict, winners split the pot. It was our cultural on-ramp: it onboarded our earliest community, distributed XP and NFTs, and proved that trading mechanics can be genuinely fun.
 

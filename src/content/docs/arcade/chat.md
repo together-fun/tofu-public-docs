@@ -1,4 +1,7 @@
-# Live Chat & Token Rooms
+---
+title: Live Chat & Token Rooms
+description: Every token is a live room — chat, badges, entry effects, and a global room for the whole platform.
+---
 
 Every token is a room. Every room is alive.
 

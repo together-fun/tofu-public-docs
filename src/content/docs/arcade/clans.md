@@ -1,4 +1,7 @@
-# Clans
+---
+title: Clans
+description: TOFU's creator economy — clan treasuries, clan wars, and token room occupation. Coming soon.
+---
 
 > 🚧 **Coming Soon** — clans are incoming. Stack XP now, claim your squad soon.
 

@@ -1,8 +1,11 @@
-# Introduction
+---
+title: Introduction
+description: Welcome to the TOFU Trading Arcade — where trading, gaming, and community merge into one entertainment layer.
+---
 
 Welcome to the TOFU Trading Arcade — where trading, gaming, and community merge into one entertainment layer.
 
-<!-- IMG: full trade page screenshot (chart + chatroom + danmaku visible) -->
+![The TOFU trade page — chart, order book, chat, and order form on one screen](../../../assets/screenshots/trade-page-full.png)
 
 **Together.fun** transforms trading from a technical, isolating process into a social, visual, and emotionally engaging experience. Under the playful skin sits serious infrastructure: the Arcade runs on **Hyperliquid**, giving you professional-grade execution, deep liquidity, and real markets — spot, perpetuals, and outcome markets — without the professional-grade boredom.
 

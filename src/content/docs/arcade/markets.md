@@ -1,4 +1,7 @@
-# Markets: Spot, Perps & Outcomes
+---
+title: "Markets: Spot, Perps & Outcomes"
+description: Three ways to play on TOFU — spot, perpetuals, and outcome markets — in one unified interface.
+---
 
 Three ways to play, one unified interface.
 
@@ -15,7 +18,7 @@ Long or short with leverage on the majors and the movers:
 * Cross and isolated margin support.
 * Powered by Hyperliquid's perp engine — deep liquidity, fast fills.
 
-<!-- IMG: perp market screenshot with leverage control -->
+![A perpetual market on TOFU with leverage controls](../../../assets/screenshots/perp-market.png)
 
 ### Outcome Markets
 
@@ -25,7 +28,7 @@ Prediction-style markets on real-world questions — sports, crypto events, and 
 * Buy the side you believe in; prices reflect the crowd's live probability.
 * Same social layer: every outcome market has its chatroom and danmaku, so you can talk trash while you back your team.
 
-<!-- IMG: outcome/question page screenshot (e.g., World Cup 2026) -->
+![An outcome market question page on TOFU](../../../assets/screenshots/outcome-question.png)
 
 ### Finding markets
 

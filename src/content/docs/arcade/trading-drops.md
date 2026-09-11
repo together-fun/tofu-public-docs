@@ -1,4 +1,7 @@
-# Trading Drops (Blind Boxes)
+---
+title: Trading Drops (Blind Boxes)
+description: TOFU's blind box system — earn boxes through trading volume, open them for randomized rewards.
+---
 
 Trade. Earn boxes. Open boxes. Feel things.
 

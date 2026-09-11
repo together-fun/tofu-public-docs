@@ -1,8 +1,11 @@
-# Trading Interface
+---
+title: Trading Interface
+description: One screen with chart, order book, chat, danmaku, and positions — all live, all at once.
+---
 
 One screen. Chart, order book, chat, danmaku, and your positions — all live, all at once.
 
-<!-- IMG: annotated trade page screenshot (desktop) -->
+![The TOFU trading interface on desktop](../../../assets/screenshots/trade-page-full.png)
 
 ### The chart
 
@@ -36,6 +39,6 @@ Below the chart, your live account state:
 
 The entire interface is mobile-first: swipe between the market view and trade view, with the same chart, chat, and danmaku experience in your pocket.
 
-<!-- IMG: mobile trade view screenshot -->
+![The TOFU trade view on mobile](../../../assets/screenshots/trade-mobile.png)
 
 ***No complex charts. Just vibes — with professional execution underneath.***

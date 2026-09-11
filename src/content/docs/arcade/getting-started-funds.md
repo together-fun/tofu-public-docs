@@ -1,4 +1,7 @@
-# Deposit & Withdraw
+---
+title: Deposit & Withdraw
+description: Fund your TOFU trading account with USDC from Arbitrum — deposits, withdrawals, transfers, and bridging.
+---
 
 Your trading account settles in **USDC**. Getting funds in and out is a first-class flow, not a scavenger hunt.
 
@@ -32,4 +35,4 @@ Coming from another chain? The built-in **Bridge** page routes assets to Arbitru
 
 ***
 
-*All balances, deposits, and withdrawals are visible in your [Portfolio](./portfolio.md) with full history.*
+*All balances, deposits, and withdrawals are visible in your [Portfolio](/arcade/portfolio/) with full history.*
