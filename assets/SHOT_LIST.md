@@ -10,16 +10,18 @@
 - 环境注意：本地 dev = **staging** 后端（导航栏有 STAGING 角标、测试数据）。终稿建议换生产站基址重截（流程相同），或用户确认 staging 图可用。
 - 敏感信息：不想公开余额/PnL 就告诉 AI，入稿时打码。
 
-## A. AI 自动截 — 已完成 ✅
+## A. AI 自动截 — 已完成 ✅（2026-09-14 已全部换成生产站重截，无 STAGING 角标）
+
+生产站基址：https://tofu-website-trade.togetherdotfun.workers.dev/
 
 | 文件名 | 状态 |
 |---|---|
-| trade-page-full.png | ✅ 效果佳（图表+聊天+订单簿+下单同框）|
-| perp-market.png | ✅ |
-| trade-mobile.png | ✅ |
-| outcome-question.png | ✅ World Cup 页（staging 赔率显示 "-%"，生产重截更佳）|
-| leaderboard.png | ✅ Top3 领奖台 |
-| gallery-page.png | ✅ 106 skins 网格 |
+| trade-page-full.png | ✅ 生产站 /trade 整屏（图表+聊天+订单簿+下单同框，带真实聊天与弹幕）|
+| perp-market.png | ✅ 由 trade-page-full 裁切（去顶栏与左侧聊天，聚焦图表+订单簿+下单）|
+| trade-mobile.png | ✅ 生产站 390×844 |
+| outcome-question.png | ✅ World Cup 页裁切至地球卡片本体（生产站赔率仍为 "-%"，故不含右侧列表）|
+| leaderboard.png | ✅ Top3 领奖台（裁去顶栏）|
+| gallery-page.png | ✅ 109 skins 网格（裁去顶栏）|
 
 ## A2. AI 待截（需脚本点击/裁切，下一批）
 
