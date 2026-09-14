@@ -5,8 +5,6 @@ description: Bullet comments that fly across the chart in real time — TOFU's s
 
 Comments that fly across the chart. Price action becomes a crowd experience.
 
-<!-- IMG: chart with danmaku flying across (ideally during a pump) -->
-
 Danmaku (弹幕, "bullet comments") is TOFU's signature layer: real-time messages from the room streaming across the chart itself. When the candle rips, the screen fills with the crowd losing its mind. When it dumps... same, but redder.
 
 ### How it works
@@ -19,13 +17,11 @@ Danmaku (弹幕, "bullet comments") is TOFU's signature layer: real-time message
 
 Danmaku is also a flex. Unlockable **danmaku styles** change how your messages look on everyone's screen:
 
-* Colors, effects, and rarity-tiered styles earned from **Trading Drops**, the **Store**, or achievements.
+* Colors, effects, and rarity-tiered styles earned from **Trading Drops** and platform events.
 * Legendary styles are unmissable — when a Legendary danmaku crosses the chart, the room notices.
-
-<!-- IMG: danmaku style selector screenshot -->
 
 ### Danmaku etiquette
 
-Rate limits and room privileges apply — new accounts warm up before going full spray. Token Cabal members get elevated danmaku privileges in their token's room.
+Rate limits and room privileges apply — new accounts warm up before going full spray.
 
 ***Cold charts are dead. Ours breathe.***

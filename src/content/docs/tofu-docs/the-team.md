@@ -22,3 +22,7 @@ The Together.fun team combines the rigor of institutional finance with the cultu
 ### Commitment
 
 Together.fun is a well-capitalized, institutional-grade company building for the long term. The team's background provides a significant moat in technology, financial modeling, and strategic execution that separates Together.fun from fly-by-night operators. We possess the capital, the network, and the patience to execute this multi-phase vision.
+
+![Tofu rocket mascot illustration](../../../assets/brand/mascot-rocket.webp)
+
+***One team, one rocket. We all ride together.***

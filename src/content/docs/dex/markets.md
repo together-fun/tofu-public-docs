@@ -28,7 +28,7 @@ Prediction-style markets on real-world questions — sports, crypto events, and 
 * Buy the side you believe in; prices reflect the crowd's live probability.
 * Same social layer: every outcome market has its chatroom and danmaku, so you can talk trash while you back your team.
 
-![An outcome market question page on TOFU](../../../assets/screenshots/outcome-question.png)
+![The World Cup outcome market on TOFU — every team on one globe](../../../assets/screenshots/outcome-question.png)
 
 ### Finding markets
 

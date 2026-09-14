@@ -11,8 +11,8 @@ Together.fun occupies a unique position at the intersection of gamified trading,
 | **Social Feed**        | ✅                | ❌                   | ✅                  | ❌              |
 | **On-Chain Trading**   | ✅                | ✅                   | Partial            | ❌              |
 | **Creator Economy**    | ✅                | ❌                   | Partial            | ❌              |
-| **NFT Achievements**   | ✅                | ❌                   | ❌                  | ✅              |
-| **Collective Trading** | ✅                | ❌                   | ❌                  | ❌              |
-| **Live Streaming**     | ✅                | ❌                   | Partial            | Partial        |
+| **Collectible Identity** | ✅              | ❌                   | ❌                  | ✅              |
+| **Collective Trading** | Soon             | ❌                   | ❌                  | ❌              |
+| **Live Streaming**     | Soon             | ❌                   | Partial            | Partial        |
 
 Together.fun's competitive advantage lies in being the only platform that combines all of these elements into a single, cohesive experience designed from the ground up for the crypto-native generation.

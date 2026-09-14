@@ -2,6 +2,7 @@
 import { defineConfig } from 'astro/config';
 import starlight from '@astrojs/starlight';
 import starlightLlmsTxt from 'starlight-llms-txt';
+import starlightImageZoom from 'starlight-image-zoom';
 
 // TOFU public docs — replaces the old GitBook site at docs.together.fun.
 // Theme parameters are reverse-engineered from the old GitBook site (see HANDOVER.md §5).
@@ -13,7 +14,7 @@ export default defineConfig({
     starlight({
       title: 'TOFU Docs',
       description:
-        'Official documentation for Together.fun (TOFU) — the gamified social trading platform. Together, We Farm Fun.',
+        'Official documentation for Together.fun (TOFU) — the social trading platform powered by Hyperliquid. Together, We Farm Fun.',
       logo: {
         src: './src/assets/brand/tofu_logo_sq.svg',
         alt: 'TOFU logo',
@@ -35,71 +36,50 @@ export default defineConfig({
         ThemeProvider: './src/components/ThemeProvider.astro',
         ThemeSelect: './src/components/ThemeSelect.astro',
       },
+      // Flat two-level sidebar: uppercase group labels + page items (GitBook look).
       sidebar: [
         {
           label: 'TOFU Docs',
           items: [
             { label: 'Welcome to TOFU', link: '/' },
-            {
-              label: 'Why TOFU',
-              items: [
-                'tofu-docs/the-problem',
-                'tofu-docs/the-solution',
-                'tofu-docs/landscape',
-              ],
-            },
-            'tofu-docs/arcade-overview',
+            'tofu-docs/the-problem',
+            'tofu-docs/the-solution',
+            'tofu-docs/landscape',
+            'tofu-docs/dex-overview',
             'tofu-docs/rugpad-recap',
-            'tofu-docs/roadmap',
             'tofu-docs/the-team',
           ],
         },
         {
-          label: 'Trading Arcade',
+          label: 'TOFU Dex',
           items: [
-            'arcade/introduction',
-            {
-              label: 'Getting Started',
-              items: [
-                'arcade/getting-started-connect',
-                'arcade/getting-started-funds',
-              ],
-            },
-            {
-              label: 'Trading',
-              items: [
-                'arcade/trading-interface',
-                'arcade/markets',
-                'arcade/portfolio',
-              ],
-            },
-            {
-              label: 'Social Layer',
-              items: [
-                'arcade/chat',
-                'arcade/danmaku',
-                'arcade/gifts',
-                { slug: 'arcade/streaming', badge: { text: 'Soon', variant: 'caution' } },
-              ],
-            },
-            {
-              label: 'Identity & Progression',
-              items: [
-                'arcade/xp-levels',
-                'arcade/cosmetics',
-                'arcade/achievements',
-                'arcade/token-cabal',
-              ],
-            },
-            'arcade/trading-drops',
-            { slug: 'arcade/store', badge: { text: 'Soon', variant: 'caution' } },
-            'arcade/leaderboard',
-            { slug: 'arcade/clans', badge: { text: 'Soon', variant: 'caution' } },
-            'arcade/referral',
+            'dex/introduction',
+            'dex/getting-started-connect',
+            'dex/getting-started-funds',
+          ],
+        },
+        {
+          label: 'Trading',
+          items: ['dex/trading-interface', 'dex/markets', 'dex/portfolio'],
+        },
+        {
+          label: 'Social',
+          items: ['dex/chat', 'dex/danmaku'],
+        },
+        {
+          label: 'Progression',
+          items: ['dex/xp-levels', 'dex/cosmetics', 'dex/trading-drops'],
+        },
+        {
+          label: 'Community',
+          items: [
+            'dex/leaderboard',
+            { slug: 'dex/clans', badge: { text: 'Soon', variant: 'caution' } },
+            'dex/coming-soon',
           ],
         },
       ],
-      plugins: [starlightLlmsTxt()],
+      plugins: [starlightLlmsTxt(), starlightImageZoom()],
     }),
   ],
 });

@@ -1,34 +1,34 @@
 ---
-title: The Tofu Arcade
-description: A fully gamified social trading experience built on five pillars — the main stage of Together.fun.
+title: The TOFU Dex
+description: Social trading done right — live rooms, danmaku, collectible identity, and Trading Drops on top of real Hyperliquid markets.
 ---
 
-A fully gamified social trading experience — the main stage of Together.fun.
+Don't trade alone. This time, your voice gets heard.
 
-![The Tofu Arcade banner](../../../assets/brand/banner-gm.png)
+![The TOFU Dex banner](../../../assets/brand/banner-gm.png)
 
-The Tofu Arcade is where everything we believe about trading comes together: real markets, live community, and game mechanics that make every trade feel like play. It is built on five pillars:
+The TOFU Dex is the main stage of Together.fun: a real trading venue — spot, perps, and outcome markets powered by Hyperliquid — rebuilt around one idea: **trading is better together**. Everything that used to live in three other tabs now lives on the chart itself.
 
-### 1. All-in-One Social Trading Hub
+### Every token is a live room
 
-Every token is a live room. The chart, the chatroom, the danmaku layer, and live streams share one screen. Price action becomes a crowd experience — pumps trigger a wall of danmaku, whales get called out in real time, and gifts rain on the community.
+The chart and the community share one screen. Each market has its own chatroom where the people trading the token talk in real time — sentiment, alpha, and cope, right next to the candles. A global room connects the whole platform.
 
-### 2. Gamified Execution
+### Danmaku: the crowd on the chart
 
-HYPE (buy) and DUMP (sell). Order flow that flashes across the screen like a gift barrage. Trading Drops (blind boxes) earned through volume. Trading stops feeling like filing taxes and starts feeling like a game — while Hyperliquid's engine handles the execution underneath.
+Comments fly across the chart itself. When the candle rips, you see the room lose its mind in real time. Cold, silent charts are dead — ours talk back.
 
-### 3. Identity & Legacy
+### An identity you can collect
 
-XP and levels, unlockable avatars, animated frames and nameplates, milestone achievements, and per-token mastery through the Token Cabal. Your profile isn't a settings page — it's a trophy room.
+Avatars, animated frames, nameplates, and danmaku styles across four rarity tiers. Your level badge follows you into every room. On TOFU, your look is earned — and everyone can tell.
 
-### 4. Collective Action
+### Trading Drops
 
-Together Moments: coordinated, time-limited trading events where the community moves as one, with reward multipliers for participants.
+Blind boxes earned through trading volume. Open them for cosmetics, consumables, and rare pulls that make the whole room jealous. The more you trade, the more you unlock.
 
-### 5. Creator Economy
+### And we're just getting started
 
-Clans form around KOLs and top traders. Clan treasuries, clan wars, token room occupation, and shared rewards turn referrals into living communities.
+The social layer keeps growing — more ways to celebrate together, more things to collect, more reasons to bring your crew. Peek at what's [coming soon](/dex/coming-soon/).
 
 ***
 
-→ Full feature documentation lives in the **[TOFU Trading Arcade](/arcade/introduction/)** section: getting started, trading interface, chat & danmaku, gifts, cosmetics, levels, blind boxes, clans, and more.
+→ Full documentation lives in the **[TOFU Dex](/dex/introduction/)** section: getting started, trading interface, chat & danmaku, levels, cosmetics, and Trading Drops.

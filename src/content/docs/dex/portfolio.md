@@ -5,8 +5,6 @@ description: Your trading story, fully receipted — balances, PnL calendar, com
 
 Your trading story, fully receipted.
 
-<!-- IMG: portfolio page screenshot (balance banner + PnL calendar) -->
-
 ### Portfolio overview
 
 * **Balance banner** — total account value, available margin, and quick actions (Deposit / Withdraw / Transfer / History).
@@ -26,7 +24,7 @@ Every event in your account, timestamped and filterable:
 
 Your profile page is your trophy room — and it's visible to others:
 
-* Level badge, avatar (with equipped frame and nameplate), achievements.
+* Level badge and avatar, with your equipped frame and nameplate on display.
 * Trading stats and performance overview.
 * Your warehouse of collected items and cosmetics.
 

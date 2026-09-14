@@ -15,22 +15,18 @@ If the market is a casino, we're building the most fun casino on the internet. I
 
 #### All-in-One Social Trading Hub
 
-A multi-dimensional live space where charts, danmaku comments, live chat, and streams converge in real time — one screen, no switching. Your alpha feed, your community, and your trade button are finally in one place.
+A multi-dimensional live space where charts, danmaku comments, and live chat converge in real time — one screen, no switching. Your alpha feed, your community, and your trade button are finally in one place. Don't trade alone: this time, your voice gets heard.
 
-#### Gamified Execution
+#### Effortless Execution
 
-A console-style trading experience with intuitive HYPE/DUMP controls, real-time order flow visualization, and surprise rewards from trading — all running on Hyperliquid's professional-grade execution engine.
+Intuitive HYPE/DUMP controls and surprise rewards from trading — all running on Hyperliquid's professional-grade execution engine. Simple on the surface, serious underneath.
 
 #### Identity & Legacy System
 
-An RPG-like progression system that transforms your trading journey into a legacy: XP and levels, unlockable cosmetics, achievements, per-token mastery (Token Cabal), and a place in the community's Hall of Fame (or Rekt Graveyard).
+A progression system that transforms your trading journey into a legacy: XP and levels, unlockable avatars and frames, Trading Drops, and a place in the community's Hall of Fame.
 
-#### Collective Action
+#### A Community That Compounds
 
-Coordinated, time-limited trading events where the community moves as one, with the chance to earn boosted rewards.
+And this is just the start — clans, community events, and more social surprises are on the way, turning followings into squads and trades into shared moments.
 
-#### Creator Economy
-
-A next-gen community and referral system where clans form around KOLs, compete in clan wars, occupy token territories, and share treasury rewards.
-
-→ Dive into every feature in the **[TOFU Trading Arcade](/arcade/introduction/)** docs.
+→ Dive into every feature in the **[TOFU Dex](/dex/introduction/)** docs.
