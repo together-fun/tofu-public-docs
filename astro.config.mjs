@@ -25,17 +25,13 @@ export default defineConfig({
         { icon: 'x.com', label: 'X (Twitter)', href: 'https://x.com/togetherdotfun' },
         { icon: 'telegram', label: 'Telegram', href: 'https://t.me/togetherfun' },
       ],
-      customCss: [
-        '@fontsource/inter/400.css',
-        '@fontsource/inter/500.css',
-        '@fontsource/inter/600.css',
-        '@fontsource/inter/700.css',
-        './src/styles/theme.css',
-      ],
-      // Dark-only theme (the old GitBook site defaulted to dark).
+      customCss: ['./src/styles/fonts.css', './src/styles/theme.css'],
       components: {
+        // Dark-only theme (the old GitBook site defaulted to dark).
         ThemeProvider: './src/components/ThemeProvider.astro',
         ThemeSelect: './src/components/ThemeSelect.astro',
+        // Preloads fonts + logo to stop per-navigation flicker.
+        Head: './src/components/Head.astro',
       },
       // Flat two-level sidebar: uppercase group labels + page items (GitBook look).
       sidebar: [
@@ -72,7 +68,13 @@ export default defineConfig({
         },
         {
           label: 'Progression',
-          items: ['dex/xp-levels', 'dex/cosmetics', 'dex/trading-drops', 'dex/coming-soon'],
+          items: [
+            'dex/your-identity',
+            'dex/xp-levels',
+            'dex/cosmetics',
+            'dex/trading-drops',
+            'dex/coming-soon',
+          ],
         },
         {
           label: 'Legacy',

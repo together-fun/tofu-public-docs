@@ -106,6 +106,29 @@ html {
     margin-inline-end: 0.75rem;
   }
 }
+
+/* Align the search box with the "On this page" column below it: same left
+ * and right edges as the TOC text block. Mirrors Starlight's right-sidebar
+ * geometry (TwoColumnContent container width + PageSidebar .sl-container):
+ *   TOC text width = min(sidebar 18.75rem − 2×pad 1rem = 16.75rem,
+ *                        (100vw − 23.75rem) / 4)   [23.75rem = sidebar
+ *                        + 2×content-pad 1.5rem + 2×sidebar-pad 1rem]
+ * The margin-inline-end re-derives the column offset from the header's own
+ * content width (50% = header/2), which makes scrollbar width and the
+ * centered-shell gutter cancel out exactly:
+ *   margin = 16.25rem + max(0, header/2 − 41.25rem) − TOC-text-width
+ * (16.25rem = sidebar − nav-pad 1.5rem − sidebar-pad 1rem; 41.25rem =
+ * (sidebar − 2×nav-pad + content 48rem + sidebar) / 2.)
+ * Only applies ≥72rem — below that Starlight hides the TOC column. */
+@media (min-width: 72rem) {
+  div.header > div:nth-child(2) {
+    flex: 0 0 auto;
+    width: min(16.75rem, calc((100vw - 23.75rem) * 0.25));
+    margin-inline-end: calc(
+      16.25rem + max(0px, 50% - 41.25rem) - min(16.75rem, (100vw - 23.75rem) * 0.25)
+    );
+  }
+}
 /* No divider between social icons and what follows. */
 .social-icons::after {
   border: 0 !important;

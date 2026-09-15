@@ -1,0 +1,30 @@
+---
+/**
+ * Head override: default Starlight head + resource preloads that stop the
+ * per-navigation flicker (fallback-font flash + logo pop-in).
+ *
+ * - Fonts live in public/fonts/ (stable URLs — see src/styles/fonts.css),
+ *   so we can preload the latin woff2 for every weight the UI uses. The
+ *   font is then ready at first paint and the text never re-flows.
+ * - The logo SVG is imported here so the preload href matches the hashed
+ *   asset URL Starlight renders in the nav.
+ */
+import Default from '@astrojs/starlight/components/Head.astro';
+import logo from '../assets/brand/tofu_logo_sq.svg';
+
+const fontWeights = ['400', '500', '600', '700'];
+---
+
+<Default />
+{
+  fontWeights.map((w) => (
+    <link
+      rel="preload"
+      as="font"
+      type="font/woff2"
+      href={`/fonts/inter-latin-${w}-normal.woff2`}
+      crossorigin
+    />
+  ))
+}
+<link rel="preload" as="image" type="image/svg+xml" href={logo.src} />
