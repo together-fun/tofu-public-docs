@@ -8,10 +8,10 @@
 :root {
   --sl-font: 'Inter', ui-sans-serif, system-ui, -apple-system, 'Segoe UI', Roboto,
     'Helvetica Neue', Arial, sans-serif;
-  /* GitBook-like reading column (~720px). */
-  --sl-content-width: 45rem;
+  /* GitBook-like reading column (old site measures ~768px incl. padding). */
+  --sl-content-width: 48rem;
   /* Max width of the whole shell (sidebar + content + TOC) — centered like GitBook. */
-  --tofu-shell-max: 88rem;
+  --tofu-shell-max: 90rem;
 
   /* Rarity palette — single source: frontend repo globals.css --rarity-* tokens. */
   --rarity-common: #737d88;
@@ -48,6 +48,14 @@
 
   --sl-color-text: #e6ede8; /* body text, slightly dimmed for comfort */
   --sl-color-text-accent: #14f195; /* links & accents */
+}
+
+/* Always reserve the scrollbar gutter: without this, short pages (no
+ * scrollbar) render ~15px wider than long pages, so the whole layout —
+ * including the "On this page" column — jumps horizontally between pages. */
+html {
+  overflow-y: scroll;
+  scrollbar-gutter: stable;
 }
 
 /* ---- Centered shell (GitBook look): cap total width, center it -------- */
@@ -91,8 +99,11 @@
     flex: 0 1 16rem;
     justify-content: flex-end;
   }
+  /* Social icons sit left of the search box with breathing room — they must
+   * not hug the right edge (GitBook keeps a clear gap before the search). */
   div.header > .right-group {
     order: 2;
+    margin-inline-end: 0.75rem;
   }
 }
 /* No divider between social icons and what follows. */
@@ -118,6 +129,27 @@ header.header {
 .content-panel + .content-panel {
   border-top: none;
 }
+/* "On this page" heading: muted gray + list icon, like the old GitBook TOC. */
+.right-sidebar-panel h2 {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  color: var(--sl-color-gray-2);
+  font-size: var(--sl-text-xs);
+  font-weight: 600;
+}
+.right-sidebar-panel h2::before {
+  content: '';
+  flex: none;
+  width: 0.9rem;
+  height: 0.9rem;
+  background-color: currentColor;
+  -webkit-mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M8 6h13M8 12h13M8 18h13'/%3E%3Ccircle cx='3.5' cy='6' r='1' fill='black' stroke='none'/%3E%3Ccircle cx='3.5' cy='12' r='1' fill='black' stroke='none'/%3E%3Ccircle cx='3.5' cy='18' r='1' fill='black' stroke='none'/%3E%3C/svg%3E")
+    no-repeat center / contain;
+  mask: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24' fill='none' stroke='black' stroke-width='2' stroke-linecap='round'%3E%3Cpath d='M8 6h13M8 12h13M8 18h13'/%3E%3Ccircle cx='3.5' cy='6' r='1' fill='black' stroke='none'/%3E%3Ccircle cx='3.5' cy='12' r='1' fill='black' stroke='none'/%3E%3Ccircle cx='3.5' cy='18' r='1' fill='black' stroke='none'/%3E%3C/svg%3E")
+    no-repeat center / contain;
+}
+
 /* "On this page": drop the auto-added "Overview" root item (H1 anchor).
  * All real headings are nested under it, so hide only the link itself and
  * pull the child list back to depth 0. */
@@ -221,6 +253,20 @@ mobile-starlight-toc nav ul.isMobile > li > ul {
 
 .starlight-aside {
   border-radius: 0.5rem;
+}
+
+/* ---- "Soon" badges: quiet TOFU-green label instead of loud yellow ------ */
+
+.sl-badge.caution {
+  background: #242f28; /* primary-3 */
+  border: 1px solid color-mix(in srgb, #14f195 30%, transparent);
+  color: var(--sl-color-accent-high);
+  font-size: 0.62rem;
+  font-weight: 600;
+  letter-spacing: 0.05em;
+  border-radius: 0.3rem;
+  padding: 0.1rem 0.35rem;
+  line-height: 1.3;
 }
 
 /* ---- Rarity badges (product palette, 100% text / 40% border / 20% bg) - */
@@ -544,6 +590,124 @@ img.page-banner {
 .avatar-evolution-lg .evo-arrow {
   font-size: 1.75rem;
   padding-bottom: 2.5rem;
+}
+
+/* ---- Split section: media left, copy right (GitBook two-column look) --- */
+
+.split-media {
+  display: flex;
+  gap: 2rem;
+  align-items: flex-start;
+  margin-block: 1.25rem;
+}
+.split-media .sm-media {
+  flex: 0 0 44%;
+  min-width: 0;
+}
+.split-media .sm-media img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 0.75rem;
+  border: 1px solid var(--sl-color-hairline);
+  box-shadow: 0 8px 32px -16px rgb(0 0 0 / 0.8);
+}
+.split-media .sm-body {
+  flex: 1;
+  min-width: 0;
+}
+.split-media .sm-body > :first-child {
+  margin-top: 0;
+}
+@media (max-width: 48rem) {
+  .split-media {
+    flex-direction: column;
+  }
+  .split-media .sm-media {
+    flex-basis: auto;
+    width: 100%;
+  }
+}
+
+/* ---- Funds dialog shots: narrow modals, centered at a modest width ------ */
+
+.modal-shot {
+  display: block;
+  margin: 1.25rem auto;
+  width: min(26rem, 85%);
+}
+.modal-shot img {
+  width: 100%;
+  height: auto;
+  margin: 0;
+  border-radius: 0.75rem;
+  border: 1px solid var(--sl-color-hairline);
+  box-shadow: 0 8px 32px -16px rgb(0 0 0 / 0.8);
+}
+
+/* ---- Full-width showcase rows: 4-up and 2-up variants ------------------ */
+
+/* Shared rule: a 3–4 item row spans the full reading column. */
+.cosmetic-row-4 {
+  justify-content: space-between;
+  gap: 1.25rem;
+}
+.cosmetic-row-4 .cosmetic-item {
+  width: 10.5rem;
+}
+.cosmetic-row-4 .cosmetic-item img {
+  width: 10rem;
+  border-radius: 1rem;
+}
+.cosmetic-row-4 .cosmetic-item .cosmetic-name {
+  font-size: 0.85rem;
+}
+
+.cosmetic-row-2 {
+  justify-content: space-evenly;
+  width: 100%;
+}
+.cosmetic-row-2 .cosmetic-item {
+  width: 16rem;
+}
+.cosmetic-row-2 .framed-avatar {
+  width: 13rem;
+  height: 13rem;
+}
+.cosmetic-row-2 .cosmetic-item .cosmetic-name {
+  font-size: 0.85rem;
+}
+
+/* Nameplates: wide banners, two-up filling the column. */
+.nameplate-row {
+  display: flex;
+  gap: 1.5rem;
+  margin-block: 1rem 0.5rem;
+}
+.nameplate-row .cosmetic-item {
+  flex: 1;
+  width: auto;
+}
+/* starlight-image-zoom wraps the img in an inline custom element that would
+ * shrink-wrap to the intrinsic size — force it to fill the flex item. */
+.nameplate-row starlight-image-zoom-zoomable {
+  display: block;
+  width: 100%;
+}
+.nameplate-row .cosmetic-item img {
+  width: 100%;
+  /* Normalize mixed source aspect ratios to the product plate shape (640x274). */
+  aspect-ratio: 640 / 274;
+  object-fit: cover;
+  border-radius: 0.6rem;
+}
+.nameplate-row .cosmetic-item .cosmetic-name {
+  font-size: 0.85rem;
+}
+@media (max-width: 40rem) {
+  .nameplate-row {
+    flex-direction: column;
+  }
 }
 
 /* Chat level badge images: small inline strips, no photo framing. */
