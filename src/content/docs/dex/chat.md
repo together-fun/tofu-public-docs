@@ -1,6 +1,6 @@
 ---
-title: Live Chat & Token Rooms
-description: Every token is a live room — chat, badges, entry effects, and a global room for the whole platform.
+title: Live Chat
+description: Every token is a live room — chat, badges, and a global room for the whole platform.
 ---
 
 Every token is a room. Every room is alive.
@@ -11,12 +11,14 @@ Each market has its own live chatroom, right next to the chart. The people in th
 
 * **Live messages** with user avatars, level badges, and equipped cosmetics — a Level 40 whale looks like a Level 40 whale.
 * **Replies and reactions** — thumbs up the alpha, dunk on the fade.
-* **Entry effects** — high-level users get announced when they enter the room.
-* **Pinned messages** for room announcements.
+
+![A token room — avatars, level badges, replies, and global messages](../../../assets/screenshots/chatroom-panel.png)
 
 ### Global chat
 
 One platform-wide room where everyone hangs out — cross-token banter, platform announcements, and the loudest wins (and losses) of the day.
+
+![Real-time chat on TOFU — the room is always live](../../../assets/illustration/banner-realtimechat.webp)
 
 ### Personal messages
 

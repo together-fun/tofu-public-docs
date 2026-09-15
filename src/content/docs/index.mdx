@@ -5,6 +5,9 @@ description: Together.fun (TOFU) is a social trading platform where trading and 
 
 import { CardGrid, LinkCard } from '@astrojs/starlight/components';
 import tofuGirl from '../../assets/brand/tofu-girl-inviting.png';
+import pitBanner from '../../assets/backgrounds/pit-trading-bg.webp';
+
+<img src={pitBanner.src} alt="TOFU pit trading banner" class="page-banner" />
 
 **Together.fun (TOFU)** is a social trading platform built for the modern crypto participant: the degen, the meme-lover, the alpha hunter. Real markets, powered by Hyperliquid — with your whole community trading right beside you.
 
@@ -20,15 +23,29 @@ The old world of trading is lonely, complex, and joyless. Charts on one tab, alp
 
 ### Brand Identity
 
-<img src={tofuGirl.src} alt="Tofu girl illustration inviting you in" class="float-illustration" />
-
-| **Element**      | **Details**                                                                                                          |
-| ---------------- | -------------------------------------------------------------------------------------------------------------------- |
-| **Project Name** | Together.fun (**TOFU**)                                                                                              |
-| **Slogan**       | **Together, We Farm Fun.**                                                                                           |
-| **One-Liner**    | The social trading platform where the **community is the alpha** and **your portfolio tells your story**.            |
-
-<div class="clearfix" />
+<div class="brand-identity">
+  <img src={tofuGirl.src} alt="Tofu girl illustration inviting you in" class="bi-illustration" />
+  <table class="bi-table">
+    <tbody>
+      <tr>
+        <th>Element</th>
+        <th>Details</th>
+      </tr>
+      <tr>
+        <td>Project Name</td>
+        <td>Together.fun (<strong>TOFU</strong>)</td>
+      </tr>
+      <tr>
+        <td>Slogan</td>
+        <td><strong>Together, We Farm Fun.</strong></td>
+      </tr>
+      <tr>
+        <td>One-Liner</td>
+        <td>The social trading platform where the <strong>community is the alpha</strong> and <strong>your portfolio tells your story</strong>.</td>
+      </tr>
+    </tbody>
+  </table>
+</div>
 
 ***Together, We Farm Fun.*** We are the vibe. And the future is fun.
 

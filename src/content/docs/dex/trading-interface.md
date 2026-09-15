@@ -25,7 +25,7 @@ One screen. Chart, order book, chat, danmaku, and your positions — all live, a
 * For perps: leverage control, margin mode, and liquidation price shown *before* you commit.
 * **HYPE** (buy/long) is green. **DUMP** (sell/short) is red. You will not mix them up.
 
-<!-- IMG: order form close-up screenshot -->
+![The order form — market/limit tabs, size presets, and slippage control](../../../assets/screenshots/trading-order-form.png)
 
 ### Positions & orders
 

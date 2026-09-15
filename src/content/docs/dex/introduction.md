@@ -22,8 +22,7 @@ Welcome to the TOFU Dex — where trading and community merge into one experienc
 | --- | --- |
 | **TOFU Dex** | Connect your wallet, enable trading, fund your account |
 | **Trading** | The trading interface, market types, portfolio & history |
-| **Social** | Live chat, token rooms, and danmaku |
-| **Progression** | XP & levels, avatars & cosmetics, Trading Drops |
-| **Community** | Leaderboard, clans, and what's coming next |
+| **Social** | Live chat, danmaku, the leaderboard, and clans |
+| **Progression** | XP & levels, avatars & cosmetics, Trading Drops, and what's next |
 
 ***Your alpha feed, your community, and your trade button are finally in one place.***

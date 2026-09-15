@@ -9,6 +9,8 @@ Two steps stand between you and your first HYPE: connect a wallet, then enable t
 
 Click **Connect Wallet** in the top-right corner and pick your weapon — MetaMask, Rabby, WalletConnect, and every major EVM wallet are supported.
 
+![The Connect Wallet dialog](../../../assets/screenshots/connect-modal.png)
+
 Connecting is read-only and free: no transaction, no signature fee. You can browse every market, chatroom, and leaderboard before committing anything.
 
 ### 2. Enable trading

@@ -29,4 +29,20 @@ A progression system that transforms your trading journey into a legacy: XP and 
 
 And this is just the start — clans, community events, and more social surprises are on the way, turning followings into squads and trades into shared moments.
 
+### The Landscape
+
+Together.fun occupies a unique position at the intersection of gamified trading, social platforms, and Web3 gaming. While individual competitors exist in each vertical, no platform unifies all three:
+
+| **Feature**            | **Together.fun** | **Traditional DEX** | **Social Trading** | **Web3 Games** |
+| ---------------------- | ---------------- | ------------------- | ------------------ | -------------- |
+| **Gamified UI**        | ✅                | ❌                   | Partial            | ✅              |
+| **Social Feed**        | ✅                | ❌                   | ✅                  | ❌              |
+| **On-Chain Trading**   | ✅                | ✅                   | Partial            | ❌              |
+| **Creator Economy**    | ✅                | ❌                   | Partial            | ❌              |
+| **Collectible Identity** | ✅              | ❌                   | ❌                  | ✅              |
+| **Collective Trading** | Soon             | ❌                   | ❌                  | ❌              |
+| **Live Streaming**     | Soon             | ❌                   | Partial            | Partial        |
+
+Together.fun's competitive advantage lies in being the only platform that combines all of these elements into a single, cohesive experience designed from the ground up for the crypto-native generation.
+
 → Dive into every feature in the **[TOFU Dex](/dex/introduction/)** docs.
