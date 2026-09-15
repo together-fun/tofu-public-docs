@@ -5,7 +5,7 @@ description: The TOFU Dex you see today is only the opening act. More social sur
 
 What you see today is the opening act.
 
-![Mystery avatar illustration](../../../assets/avatars/avatar-mystery.webp)
+![Tofu Man riding a rocket up and to the right](../../../assets/brand/tofu-rocket-ride.png)
 
 The Dex is live, the rooms are loud, and the drops are dropping — but the team is deep in the lab, and the roadmap runs a lot further than the sidebar suggests.
 

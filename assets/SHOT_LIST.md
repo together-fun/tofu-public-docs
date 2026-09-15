@@ -72,3 +72,8 @@ Store / Clan（含 treasury）/ Stream（含 PK）/ Rekt Graveyard。
 - Tofu Man 系列插画、team 图片、RugPad 截图、`banner_realtimechat.webp`（chat 页）—— 来自前端仓库 public/images。
 - `trading-crew-night.webp`（tofu-docs/the-problem 首图）—— 由 `D:\TOFU_website_main\public\images\hero-bg.webp`
   整幅入画（2560×1429 → 1600 宽），整屋人开黑，不再裁左下角。
+- `tofu-rocket-ride.png`（dex/coming-soon 首图）—— 旧 GitBook Gamified Execution 页的骑火箭 Tofu Man，
+  源文件为留存的 `assets/brand/tofu-rocket-gitbook.png`（1024×1024），2026-09-15 以新名入库 `src/assets/brand/`。
+  注意：与 the-team 页的 `mascot-rocket.webp`（三个 Tofu 坐金色火箭）不是同一张，两页无重复。
+- `tofu-market-checkout.png`（dex/getting-started-funds banner）—— 旧 GitBook Collective Action 页的
+  超市收银台 Tofu 图（1897×1081），2026-09-15 从 GitBook 原图 URL 下载，留存 `assets/brand/` 并入库 `src/assets/brand/`。

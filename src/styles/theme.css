@@ -12,6 +12,10 @@
   --sl-content-width: 48rem;
   /* Max width of the whole shell (sidebar + content + TOC) — centered like GitBook. */
   --tofu-shell-max: 90rem;
+  /* Nav chrome — cooler gray than the green-tinted body palette; small radius like GitBook. */
+  --tofu-nav-muted: #9ca3a0;
+  --tofu-nav-radius: 0.2rem;
+  --tofu-nav-selected-bg: #242f28;
 
   /* Rarity palette — single source: frontend repo globals.css --rarity-* tokens. */
   --rarity-common: #737d88;
@@ -152,12 +156,25 @@ header.header {
 .content-panel + .content-panel {
   border-top: none;
 }
-/* "On this page" heading: muted gray + list icon, like the old GitBook TOC. */
+/* "On this page": GitBook TOC — uppercase heading, left/top aligned, selected pill.
+ * Top padding 1.2rem puts the heading on the same line as the left sidebar's
+ * first group label (19px below the navbar). With 0 it hugged the navbar's
+ * bottom edge, crowding the search box (12px vs the H1's 52px) and making the
+ * whole navbar row read as sitting too low. */
+@media (min-width: 72rem) {
+  .right-sidebar-panel {
+    padding-top: 1.2rem;
+  }
+}
 .right-sidebar-panel h2 {
   display: flex;
   align-items: center;
   gap: 0.5rem;
-  color: var(--sl-color-gray-2);
+  margin-inline: 0;
+  padding-inline: 0.5rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--tofu-nav-muted);
   font-size: var(--sl-text-xs);
   font-weight: 600;
 }
@@ -187,6 +204,20 @@ mobile-starlight-toc nav ul.isMobile > li > ul {
 .right-sidebar-panel nav > ul > li > ul ul {
   --depth: 1 !important;
 }
+.right-sidebar-panel nav a {
+  color: var(--tofu-nav-muted);
+  border-radius: var(--tofu-nav-radius);
+}
+.right-sidebar-panel nav a:hover {
+  color: var(--sl-color-white);
+}
+.right-sidebar-panel nav a[aria-current='true'],
+.right-sidebar-panel nav a[aria-current='true']:hover,
+.right-sidebar-panel nav a[aria-current='true']:focus {
+  background-color: var(--tofu-nav-selected-bg);
+  color: var(--sl-color-accent-high);
+  font-weight: 600;
+}
 /* Markdown horizontal rules: keep them barely-there. */
 .sl-markdown-content hr {
   border-color: var(--sl-color-hairline-light);
@@ -210,11 +241,18 @@ mobile-starlight-toc nav ul.isMobile > li > ul {
   text-decoration: underline;
 }
 
-/* ---- Sidebar: two levels — uppercase group labels + pill items -------- */
+/* ---- Sidebar: GitBook two-level — shared left edge, small-radius pills - */
+
+/* Nested items: drop Starlight's indent + hairline so titles and links share a left edge. */
+.sidebar-content ul ul li {
+  margin-inline-start: 0 !important;
+  border-inline-start: none !important;
+  padding-inline-start: 0 !important;
+}
 
 .sidebar-content a {
-  border-radius: 999px;
-  color: var(--sl-color-gray-2);
+  border-radius: var(--tofu-nav-radius);
+  color: var(--tofu-nav-muted);
   font-size: var(--sl-text-sm);
   font-weight: 400;
 }
@@ -222,12 +260,12 @@ mobile-starlight-toc nav ul.isMobile > li > ul {
 .sidebar-content a.large {
   font-size: var(--sl-text-sm);
   font-weight: 400;
-  color: var(--sl-color-gray-2);
+  color: var(--tofu-nav-muted);
 }
 .sidebar-content a[aria-current='page'],
 .sidebar-content a[aria-current='page']:hover,
 .sidebar-content a[aria-current='page']:focus {
-  background-color: #242f28; /* primary-3 */
+  background-color: var(--tofu-nav-selected-bg);
   color: var(--sl-color-accent-high);
   font-weight: 600;
 }
@@ -244,6 +282,30 @@ mobile-starlight-toc nav ul.isMobile > li > ul {
   font-weight: 600;
   color: var(--sl-color-white);
 }
+.sidebar-content summary {
+  border-radius: var(--tofu-nav-radius);
+}
+/* Hover on a group title: green wash + light text (not the selected neon). */
+.sidebar-content summary:hover {
+  background-color: var(--tofu-nav-selected-bg);
+}
+.sidebar-content summary:hover .group-label span {
+  color: #d9e2db;
+}
+
+/* Caret: hidden on expanded groups until hover; always visible when collapsed. */
+.sidebar-content details > summary .caret {
+  opacity: 0;
+  transition:
+    opacity 0.15s ease,
+    transform 0.2s ease-in-out;
+}
+.sidebar-content details:not([open]) > summary .caret,
+.sidebar-content details[open] > summary:hover .caret,
+.sidebar-content details[open] > summary:focus-visible .caret {
+  opacity: 1;
+}
+
 /* Extra air between sidebar groups. */
 .sidebar-content > ul > li + li {
   margin-top: 0.75rem;
@@ -406,31 +468,65 @@ mobile-starlight-toc nav ul.isMobile > li > ul {
   padding-bottom: 2.25rem;
 }
 
-/* Small illustration floated beside text (Welcome page identity section). */
-.float-illustration {
-  float: left;
-  width: 9.5rem;
-  height: auto;
-  margin: 0.25rem 1.5rem 0.75rem 0;
+/* ---- Split section: illustration left sized to match the copy's height - */
+
+/* Unlike .split-media (screenshots at a fixed 44% basis), the media column
+ * here stretches to the body's height and the transparent illustration is
+ * absolutely positioned inside it, so the art is always exactly as tall as
+ * the text block regardless of wrapping. */
+.split-illust {
+  display: flex;
+  gap: 2rem;
+  align-items: stretch;
+  margin-block: 1.25rem;
+}
+.split-illust .si-media {
+  flex: 0 0 30%;
+  position: relative;
+  min-height: 10rem;
+}
+/* starlight-image-zoom wraps the img in a custom element — pin whichever
+ * of the two ends up as the direct child, and let the img fill it. */
+.split-illust .si-media > starlight-image-zoom-zoomable,
+.split-illust .si-media > img {
+  position: absolute;
+  inset: 0;
+  display: block;
+}
+.split-illust .si-media img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  margin: 0;
   border: none !important;
   border-radius: 0 !important;
   box-shadow: none !important;
 }
-.clearfix {
-  clear: both;
+.split-illust .si-body {
+  flex: 1;
+  min-width: 0;
 }
-
-/* ---- Page banner (Welcome hero) --------------------------------------- */
-
-.sl-markdown-content img.page-banner,
-img.page-banner {
-  width: 100%;
-  height: 11rem;
-  object-fit: cover;
-  object-position: center 35%;
-  border-radius: 0.75rem;
-  border: 1px solid var(--sl-color-hairline);
+.split-illust .si-body > :first-child {
   margin-top: 0;
+}
+@media (max-width: 48rem) {
+  .split-illust {
+    flex-direction: column;
+  }
+  .split-illust .si-media {
+    position: static;
+    min-height: 0;
+  }
+  .split-illust .si-media > starlight-image-zoom-zoomable,
+  .split-illust .si-media > img {
+    position: static;
+  }
+  .split-illust .si-media img {
+    height: auto;
+    max-width: 16rem;
+    margin-inline: auto;
+    display: block;
+  }
 }
 
 /* ---- Brand Identity: illustration left, spec table right --------------- */
