@@ -7,11 +7,7 @@ Institutional Discipline. Native Cultural Insight.
 
 The Together.fun team combines the rigor of institutional finance with the cultural fluency of digital natives. The founding team hails from a successful hedge fund, bringing deep experience in probability games, market microstructure, risk management, and high-performance trading systems.
 
-![TOFU team](../../../assets/brand/team-2.png)
-
-![TOFU team culture](../../../assets/brand/team-4.png)
-
-![TOFU team at work](../../../assets/brand/team-7.png)
+![Tofu rocket mascot illustration](../../../assets/brand/mascot-rocket.webp)
 
 ### Team Differentiators
 
@@ -22,7 +18,5 @@ The Together.fun team combines the rigor of institutional finance with the cultu
 ### Commitment
 
 Together.fun is a well-capitalized, institutional-grade company building for the long term. The team's background provides a significant moat in technology, financial modeling, and strategic execution that separates Together.fun from fly-by-night operators. We possess the capital, the network, and the patience to execute this multi-phase vision.
-
-![Tofu rocket mascot illustration](../../../assets/brand/mascot-rocket.webp)
 
 ***One team, one rocket. We all ride together.***

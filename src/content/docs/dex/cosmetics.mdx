@@ -12,6 +12,7 @@ import frAmethyst from '../../../assets/cosmetics/frame-four_point_amethyst.webp
 import frCrowned from '../../../assets/cosmetics/frame-crowned_tofu_wings.webp';
 import frSovereign from '../../../assets/cosmetics/frame-golden_sovereign_wings.webp';
 import npGoldDust from '../../../assets/cosmetics/nameplate-gold_dust_trail-preview.png';
+import npBlueNebula from '../../../assets/cosmetics/nameplate-blue_nebula-preview.png';
 
 Your look is your legacy. Dress accordingly.
 
@@ -55,7 +56,7 @@ A few faces from the collection — from the default spawn to grail-tier flexes:
 
 Frames wrap your avatar everywhere you appear — and the rarity color tells the room what it took to get one:
 
-<div class="cosmetic-row">
+<div class="cosmetic-row cosmetic-row-4">
   <div class="cosmetic-item">
     <img src={frNeon.src} alt="Neon Point Green frame" />
     <span class="cosmetic-name">Neon Point Green</span>
@@ -80,7 +81,7 @@ Frames wrap your avatar everywhere you appear — and the rarity color tells the
 
 How it looks equipped — frame over avatar, everywhere you speak:
 
-<div class="cosmetic-row">
+<div class="cosmetic-row cosmetic-row-2">
   <div class="cosmetic-item">
     <div class="framed-avatar">
       <img class="fa-avatar" src={avMoonKing.src} alt="To The Moon King avatar" />
@@ -99,12 +100,16 @@ How it looks equipped — frame over avatar, everywhere you speak:
 
 ### Nameplates
 
-Nameplates ride behind your name in chat and on leaderboards — some are animated, like the gold dust that trails this one:
+Nameplates ride behind your name in chat and on leaderboards — most are animated, like the trailing gold dust and drifting nebula on these two:
 
-<div class="cosmetic-row">
-  <div class="cosmetic-item" style="width: 14rem;">
-    <img src={npGoldDust.src} alt="Gold Dust Trail nameplate preview" style="width: 100%;" />
+<div class="nameplate-row">
+  <div class="cosmetic-item">
+    <img src={npGoldDust.src} alt="Gold Dust Trail nameplate preview" />
     <span class="cosmetic-name">Gold Dust Trail</span>
+  </div>
+  <div class="cosmetic-item">
+    <img src={npBlueNebula.src} alt="Blue Nebula nameplate preview" />
+    <span class="cosmetic-name">Blue Nebula</span>
   </div>
 </div>
 
