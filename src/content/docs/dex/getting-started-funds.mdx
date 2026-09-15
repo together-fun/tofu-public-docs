@@ -22,15 +22,16 @@ Open the **Deposit** dialog from the navbar (or your portfolio page):
 * Funds land in your trading account and are instantly available across all markets.
 
 <div class="modal-shot">
-  <img src={modalDeposit.src} alt="The Deposit USDC dialog — Arbitrum chain, minimum 5 USDC, 0.2 USDC fee" />
+  <img src={modalDeposit.src} alt="The Deposit USDC dialog — Arbitrum chain, minimum and fee shown up front" />
 </div>
 
 ### Withdraw
 
 Withdrawing takes your USDC back to your wallet on Arbitrum:
 
-* Enter the amount, confirm in your wallet, done.
-* The flat **0.2 USDC fee** is shown before you sign — no surprises.
+* Enter the amount, confirm in your wallet, done — it's a gasless signature.
+* Pick your **withdrawal route** from the dropdown: a fast default route or the legacy bridge, each with its own fee, minimum, and arrival time — all shown up front before you sign, no surprises.
+* Need a different chain? The dialog links out to **multi-chain EVM withdrawals** via the built-in bridge.
 
 <div class="modal-shot">
   <img src={modalWithdraw.src} alt="The Withdraw USDC dialog — back to your wallet on Arbitrum" />
@@ -39,6 +40,11 @@ Withdrawing takes your USDC back to your wallet on Arbitrum:
 ### Transfer
 
 **Transfer** moves funds between your own account buckets (e.g., perps collateral ↔ spot) — instant, free, and signed with a gasless signature.
+
+Whether you ever need it depends on your **account mode**:
+
+* On **Unified Account** or **Portfolio Margin** mode, perps and spot balances are pooled into one shared ledger — nothing to move manually, so the Transfer button stays locked.
+* On **Manual** mode, each bucket keeps its own balance — use Transfer to move collateral between Spot, Perps, and any HIP-3 dex you trade on.
 
 <div class="modal-shot">
   <img src={modalTransfer.src} alt="The Transfer dialog — move USDC between Hyperliquid Perps and Spot" />
