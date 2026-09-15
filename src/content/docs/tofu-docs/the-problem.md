@@ -5,7 +5,7 @@ description: Trading is broken — fractured workflows and tools built for the w
 
 Trading Is Broken
 
-![Headphones on, back to the room — trading today is a solo grind in the dark](../../../assets/backgrounds/lone-trader-night.webp)
+![A whole room of traders — together in the same space, still grinding in the dark](../../../assets/backgrounds/trading-crew-night.webp)
 
 ### The Fractured Workflow
 

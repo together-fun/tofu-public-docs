@@ -1,5 +1,5 @@
 ---
-title: Your TOFU Identity
+title: TOFU Identity
 description: Your TOFU account is a character sheet, not a login — level, XP, avatars, frames, and a warehouse that grows with every trade.
 ---
 

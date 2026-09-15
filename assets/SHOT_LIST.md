@@ -28,7 +28,7 @@
 | dex-order-form.png | dex/trading-interface | ✅ 右侧下单表单裁切 |
 | dex-chat-panel.png | dex/chat | ✅ 聊天面板紧裁（370×560，左图右文布局用，无邻窗残边） |
 | connect-modal.png | dex/getting-started-connect | ✅ 沿用（RainbowKit 弹窗 element crop，复核无 STAGING） |
-| outcome-question.png | dex/markets | ✅ 沿用（World Cup 地球卡片裁切，无顶栏） |
+| prediction-markets.png | dex/markets（Outcome Markets） | ✅ 2026-09-15 用户提供（Prediction Markets 卡片墙） |
 | leaderboard.png | dex/leaderboard | ✅ 沿用（Top3 领奖台，裁去顶栏） |
 | gallery-page.png | dex/cosmetics | ✅ 沿用（109 skins 网格，裁去顶栏） |
 | modal-deposit.png | dex/getting-started-funds | ✅ 2026-09-15 用户提供（钱包登录态弹窗） |
@@ -70,5 +70,5 @@ Store / Clan（含 treasury）/ Stream（含 PK）/ Rekt Graveyard。
 - 装扮素材（头像/框/物品）：R2 原图 `https://tofu-assets.together.fun/skins/{avatar|avatar_frame}/<id>/assets/primary.png`
   （头像 384×384 / 框 512×512），2026-09-15 已统一分辨率入库 `src/assets/cosmetics/`，保证点击放大尺寸一致。
 - Tofu Man 系列插画、team 图片、RugPad 截图、`banner_realtimechat.webp`（chat 页）—— 来自前端仓库 public/images。
-- `lone-trader-night.webp`（tofu-docs/the-problem 首图）—— 由 `D:\TOFU_website_main\public\images\hero-bg.webp`
-  左下暗部裁切（left 0 / top 340 / 1010×720），取"深夜独自戴耳机"的孤独气质。
+- `trading-crew-night.webp`（tofu-docs/the-problem 首图）—— 由 `D:\TOFU_website_main\public\images\hero-bg.webp`
+  整幅入画（2560×1429 → 1600 宽），整屋人开黑，不再裁左下角。

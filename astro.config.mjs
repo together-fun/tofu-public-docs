@@ -10,6 +10,10 @@ export default defineConfig({
   site: 'https://docs.together.fun',
   // Fixed port so it never clashes with the frontend dev server on 3000.
   server: { port: 3100 },
+  redirects: {
+    '/tofu-docs/dex-overview': '/dex/introduction/',
+    '/tofu-docs/dex-overview/': '/dex/introduction/',
+  },
   integrations: [
     starlight({
       title: 'TOFU Docs',
@@ -41,7 +45,6 @@ export default defineConfig({
             { label: 'Welcome to TOFU', link: '/' },
             'tofu-docs/the-problem',
             'tofu-docs/the-solution',
-            'tofu-docs/dex-overview',
             'tofu-docs/the-team',
           ],
         },
