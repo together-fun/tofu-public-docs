@@ -1,6 +1,8 @@
 node_modules/
 dist/
 .astro/
+.preview-check/
+.tmp-assets/
 .wrangler/
 .env
 .env.*

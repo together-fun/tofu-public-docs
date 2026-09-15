@@ -18,11 +18,12 @@ export default defineConfig({
       logo: {
         src: './src/assets/brand/tofu_logo_sq.svg',
         alt: 'TOFU logo',
+        replacesTitle: true,
       },
       favicon: '/favicon.png',
       social: [
         { icon: 'x.com', label: 'X (Twitter)', href: 'https://x.com/togetherdotfun' },
-        { icon: 'rocket', label: 'Together.fun', href: 'https://together.fun' },
+        { icon: 'telegram', label: 'Telegram', href: 'https://t.me/togetherfun' },
       ],
       customCss: [
         '@fontsource/inter/400.css',
@@ -39,14 +40,12 @@ export default defineConfig({
       // Flat two-level sidebar: uppercase group labels + page items (GitBook look).
       sidebar: [
         {
-          label: 'TOFU Docs',
+          label: 'TOFU Intro',
           items: [
             { label: 'Welcome to TOFU', link: '/' },
             'tofu-docs/the-problem',
             'tofu-docs/the-solution',
-            'tofu-docs/landscape',
             'tofu-docs/dex-overview',
-            'tofu-docs/rugpad-recap',
             'tofu-docs/the-team',
           ],
         },
@@ -64,19 +63,20 @@ export default defineConfig({
         },
         {
           label: 'Social',
-          items: ['dex/chat', 'dex/danmaku'],
+          items: [
+            'dex/chat',
+            'dex/danmaku',
+            'dex/leaderboard',
+            { slug: 'dex/clans', badge: { text: 'Soon', variant: 'caution' } },
+          ],
         },
         {
           label: 'Progression',
-          items: ['dex/xp-levels', 'dex/cosmetics', 'dex/trading-drops'],
+          items: ['dex/xp-levels', 'dex/cosmetics', 'dex/trading-drops', 'dex/coming-soon'],
         },
         {
-          label: 'Community',
-          items: [
-            'dex/leaderboard',
-            { slug: 'dex/clans', badge: { text: 'Soon', variant: 'caution' } },
-            'dex/coming-soon',
-          ],
+          label: 'Legacy',
+          items: ['tofu-docs/rugpad-recap'],
         },
       ],
       plugins: [starlightLlmsTxt(), starlightImageZoom()],

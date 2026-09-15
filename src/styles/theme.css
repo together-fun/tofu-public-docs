@@ -10,6 +10,8 @@
     'Helvetica Neue', Arial, sans-serif;
   /* GitBook-like reading column (~720px). */
   --sl-content-width: 45rem;
+  /* Max width of the whole shell (sidebar + content + TOC) — centered like GitBook. */
+  --tofu-shell-max: 88rem;
 
   /* Rarity palette — single source: frontend repo globals.css --rarity-* tokens. */
   --rarity-common: #737d88;
@@ -48,15 +50,62 @@
   --sl-color-text-accent: #14f195; /* links & accents */
 }
 
+/* ---- Centered shell (GitBook look): cap total width, center it -------- */
+
+/* Everything in Starlight's chrome is fixed-positioned and driven by
+ * --sl-content-inline-start; shifting that var + the sidebar pane + gutters
+ * centers the whole three-column layout on wide screens. */
+@media (min-width: 90rem) {
+  :root[data-has-sidebar] {
+    --tofu-gutter: calc((100vw - var(--tofu-shell-max)) / 2);
+    --sl-content-inline-start: calc(var(--sl-sidebar-width) + var(--tofu-gutter));
+  }
+  nav.sidebar .sidebar-pane {
+    inset-inline-start: var(--tofu-gutter);
+  }
+  .main-frame {
+    padding-inline-end: var(--tofu-gutter);
+  }
+  header.header {
+    padding-inline-start: calc(var(--tofu-gutter) + var(--sl-nav-pad-x));
+    padding-inline-end: calc(var(--tofu-gutter) + var(--sl-nav-pad-x));
+  }
+}
+
+/* ---- Navbar: logo left · social icons mid-right · search far right ---- */
+
+@media (min-width: 50rem) {
+  /* Starlight lays the inner header out as a 3-col grid (title/search/social);
+   * switch to flex so we can reorder: search goes last, socials before it. */
+  div.header {
+    display: flex;
+    align-items: center;
+    gap: var(--sl-nav-gap);
+  }
+  div.header > .title-wrapper {
+    margin-inline-end: auto;
+  }
+  /* Search wrapper (2nd child) → far right. */
+  div.header > div:nth-child(2) {
+    order: 3;
+    flex: 0 1 16rem;
+    justify-content: flex-end;
+  }
+  div.header > .right-group {
+    order: 2;
+  }
+}
+/* No divider between social icons and what follows. */
+.social-icons::after {
+  border: 0 !important;
+}
+
 /* ---- Clean chrome: no structural divider lines ----------------------- */
 
-/* Navbar: logo + search + social only, no bottom border, no vertical rules. */
+/* Navbar: no bottom border, no vertical rules. */
 header.header {
   border-bottom: none;
   background-color: var(--sl-color-bg-nav);
-}
-.social-icons::after {
-  border: 0 !important;
 }
 /* Sidebar / TOC panes: separated by background tone, not borders. */
 .sidebar-pane {
@@ -68,6 +117,20 @@ header.header {
 /* Starlight inserts a hairline between the title panel and the body panel. */
 .content-panel + .content-panel {
   border-top: none;
+}
+/* "On this page": drop the auto-added "Overview" root item (H1 anchor).
+ * All real headings are nested under it, so hide only the link itself and
+ * pull the child list back to depth 0. */
+.right-sidebar-panel a[href='#_top'],
+mobile-starlight-toc a[href='#_top'] {
+  display: none !important;
+}
+.right-sidebar-panel nav > ul > li > ul,
+mobile-starlight-toc nav ul.isMobile > li > ul {
+  --depth: 0 !important;
+}
+.right-sidebar-panel nav > ul > li > ul ul {
+  --depth: 1 !important;
 }
 /* Markdown horizontal rules: keep them barely-there. */
 .sl-markdown-content hr {
@@ -118,13 +181,13 @@ header.header {
   color: var(--sl-color-white);
 }
 
-/* Group labels: small uppercase, bright (GitBook section headers). */
+/* Group labels: small uppercase, white (GitBook section headers). */
 .sidebar-content .group-label span {
   text-transform: uppercase;
   letter-spacing: 0.08em;
   font-size: var(--sl-text-xs);
   font-weight: 600;
-  color: var(--sl-color-gray-1);
+  color: var(--sl-color-white);
 }
 /* Extra air between sidebar groups. */
 .sidebar-content > ul > li + li {
@@ -286,6 +349,201 @@ header.header {
 }
 .clearfix {
   clear: both;
+}
+
+/* ---- Page banner (Welcome hero) --------------------------------------- */
+
+.sl-markdown-content img.page-banner,
+img.page-banner {
+  width: 100%;
+  height: 11rem;
+  object-fit: cover;
+  object-position: center 35%;
+  border-radius: 0.75rem;
+  border: 1px solid var(--sl-color-hairline);
+  margin-top: 0;
+}
+
+/* ---- Brand Identity: illustration left, spec table right --------------- */
+
+.brand-identity {
+  display: flex;
+  align-items: center;
+  gap: 2.25rem;
+  margin-block: 1.25rem;
+}
+/* starlight-image-zoom wraps the img in a custom element — that wrapper is
+ * the actual flex item, so size it (not just the img). */
+.brand-identity starlight-image-zoom-zoomable {
+  flex: 0 0 14rem;
+  display: block;
+}
+.brand-identity .bi-illustration {
+  width: 100%;
+  height: auto;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  margin: 0;
+}
+.brand-identity .bi-table {
+  /* Starlight forces markdown tables to display:block (h-scroll) — restore. */
+  display: table;
+  flex: 1;
+  margin: 0;
+  border-collapse: collapse;
+  font-size: var(--sl-text-sm);
+}
+.brand-identity .bi-table th {
+  text-align: start;
+  color: var(--sl-color-white);
+  font-weight: 700;
+  padding: 0.6rem 1rem 0.6rem 0;
+  border-bottom: 1px solid var(--sl-color-hairline);
+  background: none;
+}
+.brand-identity .bi-table td {
+  padding: 0.75rem 1rem 0.75rem 0;
+  border-bottom: 1px solid var(--sl-color-hairline);
+  vertical-align: top;
+}
+.brand-identity .bi-table tr:last-child td {
+  border-bottom: none;
+}
+.brand-identity .bi-table td:first-child {
+  color: var(--sl-color-white);
+  font-weight: 600;
+  white-space: nowrap;
+  padding-inline-end: 1.5rem;
+}
+@media (max-width: 40rem) {
+  .brand-identity {
+    flex-direction: column;
+    align-items: center;
+  }
+  .brand-identity starlight-image-zoom-zoomable {
+    flex-basis: auto;
+    width: 11rem;
+  }
+}
+
+/* ---- Danmaku style showcase ------------------------------------------- */
+
+/* Colors/weights mirror the product's rarity baselines + named styles
+ * (frontend repo: lib/danmaku/rarity.ts + lib/danmaku/styles/*). */
+.danmaku-showcase {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  background-color: #050906;
+  background-image: radial-gradient(ellipse at 70% 20%, rgb(20 241 149 / 0.05), transparent 60%);
+  border: 1px solid var(--sl-color-hairline);
+  border-radius: 0.75rem;
+  padding: 1.5rem 1.75rem;
+  margin-block: 1.25rem;
+}
+.danmaku-showcase .dk-row {
+  display: flex;
+  align-items: center;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+.danmaku-showcase .dk-row > .rarity {
+  flex: 0 0 6.5rem;
+  text-align: center;
+}
+.dk-sample {
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.3;
+  text-shadow:
+    -1px -1px 0 rgb(0 0 0 / 0.7),
+    1px -1px 0 rgb(0 0 0 / 0.7),
+    -1px 1px 0 rgb(0 0 0 / 0.7),
+    1px 1px 0 rgb(0 0 0 / 0.7);
+  white-space: nowrap;
+}
+.dk-default {
+  color: #ffffff;
+}
+.dk-green {
+  color: #14f195;
+}
+.dk-cyan {
+  color: #27fbe2;
+}
+.dk-purple,
+.dk-orange,
+.dk-magenta {
+  font-size: 1.2rem;
+  font-weight: 600;
+}
+.dk-purple {
+  color: #9b48fb;
+}
+.dk-orange {
+  color: #f97316;
+  text-shadow: 0 0 10px #f97316;
+}
+.dk-magenta {
+  color: #eb56e3;
+  text-shadow: 0 0 10px #eb56e3;
+}
+.dk-gold,
+.dk-gradient {
+  font-size: 1.45rem;
+  font-weight: 800;
+}
+.dk-gold {
+  color: #fedf00;
+}
+.dk-gradient {
+  background: linear-gradient(90deg, #14f195, #9945ff, #faf518);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  text-shadow: none;
+}
+
+/* ---- Large cosmetic rows (avatar showcase / level evolution) ---------- */
+
+/* Three items spanning roughly the full reading column. */
+.cosmetic-row-lg {
+  gap: 1.5rem 2.5rem;
+  justify-content: center;
+  align-items: flex-start;
+}
+.cosmetic-row-lg .cosmetic-item {
+  width: 12.5rem;
+}
+.cosmetic-row-lg .cosmetic-item img {
+  width: 12rem;
+  border-radius: 1rem;
+}
+.cosmetic-row-lg .cosmetic-item .cosmetic-name {
+  font-size: 0.85rem;
+}
+
+.avatar-evolution-lg {
+  gap: 0.9rem;
+}
+.avatar-evolution-lg .cosmetic-item {
+  width: 11.5rem;
+}
+.avatar-evolution-lg .cosmetic-item img:not(.fa-avatar):not(.fa-frame) {
+  width: 10rem;
+  border-radius: 1rem;
+}
+.avatar-evolution-lg .framed-avatar {
+  width: 10rem;
+  height: 10rem;
+}
+.avatar-evolution-lg .cosmetic-item .cosmetic-name {
+  font-size: 0.85rem;
+}
+.avatar-evolution-lg .evo-arrow {
+  font-size: 1.75rem;
+  padding-bottom: 2.5rem;
 }
 
 /* Chat level badge images: small inline strips, no photo framing. */
