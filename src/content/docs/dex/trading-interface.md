@@ -5,7 +5,7 @@ description: One screen with chart, order book, chat, danmaku, and positions —
 
 One screen. Chart, order book, chat, danmaku, and your positions — all live, all at once.
 
-![The TOFU trading interface on desktop](../../../assets/screenshots/trade-page-full.png)
+![The TOFU trading interface on desktop](../../../assets/screenshots/dex-trade-full.png)
 
 ### The chart
 
@@ -25,7 +25,7 @@ One screen. Chart, order book, chat, danmaku, and your positions — all live, a
 * For perps: leverage control, margin mode, and liquidation price shown *before* you commit.
 * **HYPE** (buy/long) is green. **DUMP** (sell/short) is red. You will not mix them up.
 
-![The order form — market/limit tabs, size presets, and slippage control](../../../assets/screenshots/trading-order-form.png)
+![The order form — market/limit tabs, size presets, and slippage control](../../../assets/screenshots/dex-order-form.png)
 
 ### Positions & orders
 
@@ -39,6 +39,6 @@ Below the chart, your live account state:
 
 The entire interface is mobile-first: swipe between the market view and trade view, with the same chart, chat, and danmaku experience in your pocket.
 
-![The TOFU trade view on mobile](../../../assets/screenshots/trade-mobile.png)
+![The TOFU trade view on mobile](../../../assets/screenshots/dex-trade-mobile.png)
 
 ***No complex charts. Just vibes — with professional execution underneath.***

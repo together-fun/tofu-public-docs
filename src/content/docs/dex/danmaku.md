@@ -7,7 +7,7 @@ Comments that fly across the chart. Price action becomes a crowd experience.
 
 Danmaku (弹幕, "bullet comments") is TOFU's signature layer: real-time messages from the room streaming across the chart itself. When the candle rips, the screen fills with the crowd losing its mind. When it dumps... same, but redder.
 
-![Danmaku flying across the live chart](../../../assets/screenshots/chart-danmaku.png)
+![Danmaku flying across the live chart](../../../assets/screenshots/dex-danmaku.png)
 
 ### How it works
 

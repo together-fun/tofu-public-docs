@@ -10,22 +10,32 @@
 - ⚠️ **STAGING 徽章**：生产站 navbar 自带黄色 STAGING 角标（staging 数据面）。所有截图必须
   先注入 CSS 隐藏再截：`span[title*="STAGING backend"] { display: none !important; }`，
   成图人工确认无 STAGING 字样后才能入库。
+- ⚠️ **换图必须换新文件名**（与前端 R2 纪律一致，禁止同名覆盖）：2026-09-15 复盘确认，
+  此前"截图已换但用户仍看到 STAGING"的根因是同名覆盖 + 交付链缓存（长驻 `pnpm preview`
+  进程 + 浏览器缓存 + dist/.astro 旧产物），源文件其实早已干净。新文件名让旧缓存必然失效。
+- 截图技巧：聊天头像冷缓存要 ~10s 才加载，而弹幕 demo 只在加载后前 ~10s 播放一轮——
+  先加载 15s 预热缓存再 reload，头像秒出、弹幕重播，连拍挑帧（见 scripts/shoot-hero.mjs）。
 - 敏感信息：不想公开余额/PnL 就告诉 AI，入稿时打码。
 
-## A. 已入库 ✅（2026-09-15 全部人工复核，确认无 STAGING 角标）
+## A. 已入库 ✅（2026-09-15 第二轮：全部改用 dex-* 新文件名重截，人工复核无 STAGING）
 
 | 文件名 | 用在哪页 | 状态 |
 |---|---|---|
-| trade-page-full.png | dex/introduction, dex/trading-interface | ✅ 2026-09-15 生产站重截（带真实弹幕飘过） |
-| perp-market.png | dex/markets | ✅ 2026-09-15 由新 trade-page-full 裁切（去顶栏+左聊天） |
-| trade-mobile.png | dex/trading-interface | ✅ 2026-09-15 生产站重截（390×844 @2x） |
-| chart-danmaku.png | dex/danmaku | ✅ 2026-09-15 新增：图表区裁切，含渐变/白色弹幕划过 |
-| trading-order-form.png | dex/trading-interface | ✅ 2026-09-15 新增：右侧下单表单裁切 |
-| chatroom-panel.png | dex/chat | ✅ 2026-09-15 新增：左侧聊天面板裁切（头像/等级徽章/Global 标签） |
-| connect-modal.png | dex/getting-started-connect | ✅ 2026-09-15 新增：RainbowKit 弹窗本体（英文，element crop） |
+| dex-trade-full.png | dex/introduction, dex/trading-interface | ✅ 2026-09-15 重截（头像已加载 + 双弹幕居中） |
+| dex-perp-market.png | dex/markets | ✅ 由 dex-trade-full 裁切（去顶栏+左聊天） |
+| dex-trade-mobile.png | dex/trading-interface | ✅ 2026-09-15 重截（390×844 @2x，含弹幕） |
+| dex-danmaku.png | dex/danmaku | ✅ 图表区裁切，渐变+白色双弹幕居中 |
+| dex-order-form.png | dex/trading-interface | ✅ 右侧下单表单裁切 |
+| dex-chat-panel.png | dex/chat | ✅ 聊天面板紧裁（370×560，左图右文布局用，无邻窗残边） |
+| connect-modal.png | dex/getting-started-connect | ✅ 沿用（RainbowKit 弹窗 element crop，复核无 STAGING） |
 | outcome-question.png | dex/markets | ✅ 沿用（World Cup 地球卡片裁切，无顶栏） |
 | leaderboard.png | dex/leaderboard | ✅ 沿用（Top3 领奖台，裁去顶栏） |
 | gallery-page.png | dex/cosmetics | ✅ 沿用（109 skins 网格，裁去顶栏） |
+| modal-deposit.png | dex/getting-started-funds | ✅ 2026-09-15 用户提供（钱包登录态弹窗） |
+| modal-withdraw.png | dex/getting-started-funds | ✅ 同上 |
+| modal-transfer.png | dex/getting-started-funds | ✅ 同上（Perps↔Spot） |
+| modal-send.png | dex/getting-started-funds | ✅ 同上（Send on HyperCore，MAX 余额为真实测试值，可公开） |
+| modal-evm-transfer.png | dex/getting-started-funds | ✅ 同上（Spot↔HyperEVM） |
 
 ## B. 需钱包登录态 — 无法无钱包截取（需用户配合）
 
@@ -35,9 +45,6 @@
 
 | 文件名 | 截什么 |
 |---|---|
-| deposit-dialog.png | Deposit 弹窗（USDC from Arbitrum） |
-| withdraw-dialog.png | Withdraw 弹窗 |
-| send-dialog.png | Send（EVM transfer）弹窗 |
 | enable-trading-dialog.png | Enable Trading 弹窗 |
 | portfolio-page.png | Portfolio（余额 banner + PnL 日历） |
 | profile-equipped.png | 个人主页（已装备头像框+名牌） |

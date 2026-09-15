@@ -5,7 +5,7 @@ description: Welcome to the TOFU Dex — where trading and community merge into 
 
 Welcome to the TOFU Dex — where trading and community merge into one experience. Don't trade alone: this time, your voice gets heard.
 
-![The TOFU trade page — chart, order book, chat, and order form on one screen](../../../assets/screenshots/trade-page-full.png)
+![The TOFU trade page — chart, order book, chat, and order form on one screen](../../../assets/screenshots/dex-trade-full.png)
 
 **Together.fun** transforms trading from a technical, isolating process into a social, visual, and emotionally engaging experience. Under the playful skin sits serious infrastructure: the Dex runs on **Hyperliquid**, giving you professional-grade execution, deep liquidity, and real markets — spot, perpetuals, and outcome markets — without the professional-grade boredom.
 
