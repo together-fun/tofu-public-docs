@@ -5,6 +5,8 @@ description: Three ways to play on TOFU — spot, perpetuals, and outcome market
 
 Three ways to play, one unified interface.
 
+![The Markets overview — Outcome, Perps, and Spot tabs with the volume heatmap, top-volume board, and full market table](../../../assets/screenshots/markets-overview.png)
+
 ### Spot
 
 Buy and hold real tokens with USDC. Full order book trading with the same charts, chat, and danmaku as everywhere else. Your spot balances live in your portfolio and can be sent or transferred any time.

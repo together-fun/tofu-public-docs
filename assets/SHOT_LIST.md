@@ -36,6 +36,10 @@
 | modal-transfer.png | dex/getting-started-funds | ✅ 同上（Perps↔Spot） |
 | modal-send.png | dex/getting-started-funds | ✅ 同上（Send on HyperCore，MAX 余额为真实测试值，可公开） |
 | modal-evm-transfer.png | dex/getting-started-funds | ✅ 同上（Spot↔HyperEVM） |
+| enable-trading-dialog.png | dex/getting-started-connect | ✅ 2026-09-15 用户提供（Enable Trading 四步弹窗，钱包登录态） |
+| markets-overview.png | dex/markets（首图） | ✅ 2026-09-15 用户提供（Outcome/Perps/Spot tab + 热力图 + Top Volume + 行情表） |
+| profile-trading-calendar.png | dex/portfolio（首图） | ✅ 2026-09-15 用户提供（Trading Calendar + Account Performance，余额经用户同意公开） |
+| profile-warehouse.png | dex/your-identity（首图） | ✅ 2026-09-15 用户提供（MonsterDegen profile + My Warehouse 头像仓库） |
 
 ## B. 需钱包登录态 — 无法无钱包截取（需用户配合）
 
@@ -45,10 +49,7 @@
 
 | 文件名 | 截什么 |
 |---|---|
-| enable-trading-dialog.png | Enable Trading 弹窗 |
-| portfolio-page.png | Portfolio（余额 banner + PnL 日历） |
 | profile-equipped.png | 个人主页（已装备头像框+名牌） |
-| warehouse-grid.png | My Warehouse 收藏网格 |
 | achievement-page.png | 成就页 |
 | blind-box-page.png | 盲盒页（未连钱包是 gate 页 "No wallet, no…"，已验证） |
 | blind-box-opening.png | 开盲盒揭晓动画瞬间 |
@@ -69,3 +70,5 @@ Store / Clan（含 treasury）/ Stream（含 PK）/ Rekt Graveyard。
 - 装扮素材（头像/框/物品）：R2 原图 `https://tofu-assets.together.fun/skins/{avatar|avatar_frame}/<id>/assets/primary.png`
   （头像 384×384 / 框 512×512），2026-09-15 已统一分辨率入库 `src/assets/cosmetics/`，保证点击放大尺寸一致。
 - Tofu Man 系列插画、team 图片、RugPad 截图、`banner_realtimechat.webp`（chat 页）—— 来自前端仓库 public/images。
+- `lone-trader-night.webp`（tofu-docs/the-problem 首图）—— 由 `D:\TOFU_website_main\public\images\hero-bg.webp`
+  左下暗部裁切（left 0 / top 340 / 1010×720），取"深夜独自戴耳机"的孤独气质。

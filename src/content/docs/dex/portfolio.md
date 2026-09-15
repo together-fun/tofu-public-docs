@@ -5,6 +5,8 @@ description: Your trading story, fully receipted — balances, PnL calendar, com
 
 Your trading story, fully receipted.
 
+![The profile view — Trading Calendar heatmap next to the Account Performance chart](../../../assets/screenshots/profile-trading-calendar.png)
+
 ### Portfolio overview
 
 * **Balance banner** — total account value, available margin, and quick actions (Deposit / Withdraw / Transfer / History).

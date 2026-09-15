@@ -5,6 +5,8 @@ description: Trading is broken — fractured workflows and tools built for the w
 
 Trading Is Broken
 
+![Headphones on, back to the room — trading today is a solo grind in the dark](../../../assets/backgrounds/lone-trader-night.webp)
+
 ### The Fractured Workflow
 
 Today's crypto trader operates across a minimum of three disconnected environments: Twitter/X for discovering alpha and reading sentiment, Telegram for community-driven calls and group coordination, and a separate DEX or exchange tab for actual execution. This fragmented workflow means opportunities are missed, context is lost, and the experience is fundamentally isolating.
