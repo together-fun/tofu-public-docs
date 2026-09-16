@@ -592,31 +592,72 @@ mobile-starlight-toc nav ul.isMobile > li > ul {
   }
 }
 
-/* ---- Danmaku style showcase ------------------------------------------- */
+/* ---- Danmaku style cards ------------------------------------------------ */
 
-/* Colors/weights mirror the product's rarity baselines + named styles
+/* Four style cards in one row, spanning the reading column — one per rarity.
+ * Colors/weights mirror the product's rarity baselines + named styles
  * (frontend repo: lib/danmaku/rarity.ts + lib/danmaku/styles/*). */
-.danmaku-showcase {
-  display: flex;
-  flex-direction: column;
+.danmaku-cards {
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
   gap: 1rem;
-  background-color: #050906;
-  background-image: radial-gradient(ellipse at 70% 20%, rgb(20 241 149 / 0.05), transparent 60%);
-  border: 1px solid var(--sl-color-hairline);
-  border-radius: 0.75rem;
-  padding: 1.5rem 1.75rem;
   margin-block: 1.25rem;
 }
-.danmaku-showcase .dk-row {
+.dk-card {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid var(--sl-color-hairline);
+  border-radius: 0.75rem;
+  background-color: #050906;
+  overflow: hidden;
+}
+/* Mini chart stage: faint grid + green wash, like danmaku over the chart.
+ * flex: 1 equalizes stage heights across the row (sample font sizes differ). */
+.dk-card .dk-stage {
+  flex: 1;
   display: flex;
   align-items: center;
-  gap: 1.5rem;
-  flex-wrap: wrap;
+  justify-content: center;
+  min-height: 6.25rem;
+  padding: 1rem 0.5rem;
+  background-color: #030703;
+  background-image:
+    radial-gradient(ellipse at 50% 0%, rgb(20 241 149 / 0.07), transparent 70%),
+    linear-gradient(rgb(255 255 255 / 0.03) 1px, transparent 1px),
+    linear-gradient(90deg, rgb(255 255 255 / 0.03) 1px, transparent 1px);
+  background-size:
+    100% 100%,
+    100% 1.5rem,
+    1.5rem 100%;
+  border-bottom: 1px solid var(--sl-color-hairline-light);
 }
-.danmaku-showcase .dk-row > .rarity {
-  flex: 0 0 6.5rem;
+.dk-card .dk-meta {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.4rem;
+  padding: 0.7rem 0.5rem 0.85rem;
+}
+.dk-card .dk-name {
+  font-size: 0.8rem;
+  font-weight: 600;
+  color: var(--sl-color-white);
+  line-height: 1.2;
   text-align: center;
 }
+@media (max-width: 48rem) {
+  .danmaku-cards {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+}
+@media (max-width: 24rem) {
+  .danmaku-cards {
+    grid-template-columns: minmax(0, 1fr);
+  }
+}
+
+/* Sample text = the product's canvas render semantics (fill + stroke + glow).
+ * Size ratios follow the rarity baselines (20 / 20 / 25 / 30 px). */
 .dk-sample {
   font-weight: 400;
   font-size: 1rem;
@@ -634,35 +675,15 @@ mobile-starlight-toc nav ul.isMobile > li > ul {
 .dk-green {
   color: #14f195;
 }
-.dk-cyan {
-  color: #27fbe2;
-}
-.dk-purple,
-.dk-orange,
-.dk-magenta {
-  font-size: 1.2rem;
-  font-weight: 600;
-}
-.dk-purple {
-  color: #9b48fb;
-}
-.dk-orange {
-  color: #f97316;
-  text-shadow: 0 0 10px #f97316;
-}
 .dk-magenta {
   color: #eb56e3;
+  font-size: 1.2rem;
+  font-weight: 600;
   text-shadow: 0 0 10px #eb56e3;
 }
-.dk-gold,
 .dk-gradient {
-  font-size: 1.45rem;
+  font-size: 1.4rem;
   font-weight: 800;
-}
-.dk-gold {
-  color: #fedf00;
-}
-.dk-gradient {
   background: linear-gradient(90deg, #14f195, #9945ff, #faf518);
   -webkit-background-clip: text;
   background-clip: text;
