@@ -17,16 +17,21 @@
   先加载 15s 预热缓存再 reload，头像秒出、弹幕重播，连拍挑帧（见 scripts/shoot-hero.mjs）。
 - 敏感信息：不想公开余额/PnL 就告诉 AI，入稿时打码。
 
-## A. 已入库 ✅（2026-09-15 第二轮：全部改用 dex-* 新文件名重截，人工复核无 STAGING）
+## A. 已入库 ✅（2026-09-16 第三轮：交易页系列改 2x 重截，`-hd` 新文件名）
+
+> ⚠️ **桌面截图必须 `deviceScaleFactor: 2`**（见 scripts/shoot-hd.mjs + crop-hd.mjs）。
+> 2026-09-16 复盘：此前桌面截图是 1x 捕获（如聊天面板仅 370×560 物理像素），正文列 ~768px
+> CSS 显示时在 DPR≥1.5 屏幕上像素不足、点击放大更糊——Astro 管线并不降宽（产物=源尺寸），
+> 根因在源图分辨率。2x 重截后正常视图与 zoom 均清晰。
 
 | 文件名 | 用在哪页 | 状态 |
 |---|---|---|
-| dex-trade-full.png | dex/introduction, dex/trading-interface | ✅ 2026-09-15 重截（头像已加载 + 双弹幕居中） |
-| dex-perp-market.png | dex/markets | ✅ 由 dex-trade-full 裁切（去顶栏+左聊天） |
-| dex-trade-mobile.png | dex/trading-interface | ✅ 2026-09-15 重截（390×844 @2x，含弹幕） |
-| dex-danmaku.png | dex/danmaku | ✅ 图表区裁切，渐变+白色双弹幕居中 |
-| dex-order-form.png | dex/trading-interface | ✅ 右侧下单表单裁切 |
-| dex-chat-panel.png | dex/chat | ✅ 聊天面板紧裁（370×560，左图右文布局用，无邻窗残边） |
+| dex-trade-full-hd.png | dex/introduction, dex/trading-interface | ✅ 2026-09-16 @2x 重截（3840×2160，头像已加载 + 双弹幕居中） |
+| dex-perp-market-hd.png | dex/markets | ✅ 由 dex-trade-full-hd 裁切（去顶栏+左聊天，3070×1950） |
+| dex-trade-mobile.png | dex/trading-interface | ✅ 2026-09-15 重截（390×844 @2x，含弹幕，本就是 2x 无需重截） |
+| dex-danmaku-hd.png | dex/danmaku | ✅ 图表区裁切（1720×1200），渐变+白色双弹幕居中 |
+| dex-order-form-hd.png | dex/trading-interface | ✅ 右侧下单表单裁切（744×1344） |
+| dex-chat-panel-hd.png | dex/chat | ✅ 聊天面板紧裁（740×1120，左图右文布局用，无邻窗残边） |
 | connect-modal.png | dex/getting-started-connect | ✅ 沿用（RainbowKit 弹窗 element crop，复核无 STAGING） |
 | prediction-markets.png | dex/markets（Outcome Markets） | ✅ 2026-09-15 用户提供（Prediction Markets 卡片墙） |
 | leaderboard.png | dex/leaderboard | ✅ 沿用（Top3 领奖台，裁去顶栏） |

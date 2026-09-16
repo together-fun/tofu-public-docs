@@ -20,7 +20,7 @@ Long or short with leverage on the majors and the movers:
 * Cross and isolated margin support.
 * Powered by Hyperliquid's perp engine — deep liquidity, fast fills.
 
-![A perpetual market on TOFU with leverage controls](../../../assets/screenshots/dex-perp-market.png)
+![A perpetual market on TOFU with leverage controls](../../../assets/screenshots/dex-perp-market-hd.png)
 
 ### Outcome Markets
 

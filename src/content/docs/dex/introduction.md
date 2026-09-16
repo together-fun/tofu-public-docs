@@ -27,7 +27,7 @@ Blind boxes earned through trading volume. Open them for cosmetics, consumables,
 
 That's the idea. Here's what it looks like when you sit down to trade.
 
-![The TOFU trade page — chart, order book, chat, and order form on one screen](../../../assets/screenshots/dex-trade-full.png)
+![The TOFU trade page — chart, order book, chat, and order form on one screen](../../../assets/screenshots/dex-trade-full-hd.png)
 
 Under the playful skin sits serious infrastructure. The Dex runs on **Hyperliquid**: professional-grade execution, deep liquidity, and real markets — without the professional-grade boredom.
 
