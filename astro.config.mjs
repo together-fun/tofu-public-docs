@@ -12,7 +12,6 @@ export default defineConfig({
   server: { port: 3100 },
   redirects: {
     '/tofu-docs/dex-overview': '/dex/introduction/',
-    '/tofu-docs/dex-overview/': '/dex/introduction/',
   },
   integrations: [
     starlight({
