@@ -787,20 +787,54 @@ mobile-starlight-toc nav ul.isMobile > li > ul {
 
 /* ---- Full-width showcase rows: 4-up and 2-up variants ------------------ */
 
-/* Shared rule: a 3–4 item row spans the full reading column. */
+/* Shared rule: a 3–4 item row spans the full reading column.
+ * Grid + subgrid so the three strata line up across every item regardless
+ * of content: row 1 = art (bottom-aligned), row 2 = name (1 or 2 lines),
+ * row 3 = rarity badge (empty cell when an item has none). Previously a
+ * flex row with align-items: flex-end, which slid single-line names and
+ * badge-less items out of line with their neighbours. */
 .cosmetic-row-4 {
-  justify-content: space-between;
-  gap: 1.25rem;
+  display: grid;
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  align-items: stretch;
+  justify-items: center;
+  row-gap: 0.45rem;
+  column-gap: 1.25rem;
 }
 .cosmetic-row-4 .cosmetic-item {
+  display: grid;
+  grid-row: span 3;
+  grid-template-rows: subgrid;
+  align-items: start;
+  justify-items: center;
   width: 10.5rem;
+  max-width: 100%;
+}
+/* Art sits on the bottom edge of row 1 so every name starts right under its image. */
+.cosmetic-row-4 .cosmetic-item > :first-child {
+  align-self: end;
 }
 .cosmetic-row-4 .cosmetic-item img {
   width: 10rem;
+  max-width: 100%;
   border-radius: 1rem;
 }
 .cosmetic-row-4 .cosmetic-item .cosmetic-name {
   font-size: 0.85rem;
+}
+/* Fallback for engines without subgrid: fixed-height name / badge rows. */
+@supports not (grid-template-rows: subgrid) {
+  .cosmetic-row-4 .cosmetic-item {
+    grid-template-rows: auto 2.4rem 1.5rem;
+  }
+}
+@media (max-width: 48rem) {
+  .cosmetic-row-4 {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+  }
+  .cosmetic-row-4 .cosmetic-item {
+    margin-bottom: 1rem;
+  }
 }
 
 .cosmetic-row-2 {

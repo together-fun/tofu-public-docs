@@ -41,7 +41,11 @@
 | modal-transfer.png | dex/getting-started-funds | ✅ 同上（Perps↔Spot） |
 | modal-send.png | dex/getting-started-funds | ✅ 同上（Send on HyperCore，MAX 余额为真实测试值，可公开） |
 | modal-evm-transfer.png | dex/getting-started-funds | ✅ 同上（Spot↔HyperEVM） |
-| enable-trading-dialog.png | dex/getting-started-connect | ✅ 2026-09-15 用户提供（Enable Trading 四步弹窗，钱包登录态） |
+| pipeline-sign-in.png | dex/getting-started-connect | ✅ 2026-11-02 用户提供（新三步流水线窗停在第 2 步 Sign in；替代旧 RainbowKit→直接 Enable 的叙事） |
+| enable-trading-session.png | dex/getting-started-connect | ✅ 2026-11-02 用户提供（新版 Enable Trading 四节点 stepper，停在第 4 步 Session；替代已删除的 enable-trading-dialog.png） |
+| achievement-hero-hd.webp | dex/achievements（首图） | ✅ 2026-11-02 本地 dev（localhost:3000，staging 后端）@2x 截 `/achievement` 首屏，裁去导航栏+跑马灯、隐藏 Next dev 角标；未登录态（Featured = Genesis 500 Tofu Chefs 真实活动） |
+| achievement-detail-genesis.png | dex/achievements | ✅ 同上，Featured 详情弹窗 element crop（任务 3 条 + 奖励 tile + 0/500 席位） |
+| achievement-growth-pack-lv5.png | dex/achievements | ✅ 同上，Growth Route Lv5 pack 详情弹窗（Pack contents: Rare Danmaku ×5） |
 | markets-overview.png | dex/markets（首图） | ✅ 2026-09-15 用户提供（Outcome/Perps/Spot tab + 热力图 + Top Volume + 行情表） |
 | profile-trading-calendar.png | dex/portfolio（首图） | ✅ 2026-09-15 用户提供（Trading Calendar + Account Performance，余额经用户同意公开） |
 | profile-warehouse.png | dex/your-identity（首图） | ✅ 2026-09-15 用户提供（MonsterDegen profile + My Warehouse 头像仓库） |
@@ -55,7 +59,8 @@
 | 文件名 | 截什么 |
 |---|---|
 | profile-equipped.png | 个人主页（已装备头像框+名牌） |
-| achievement-page.png | 成就页 |
+| achievement-page-signed-in.png | 成就页登录态（Growth Route 进度线填充 + 可领取 pack 的 Claim 按钮 + 列表进度条）；未登录版已入库，见 A 表 |
+| achievement-unlocked-reveal.png | Epic/Legendary 成就完成的全屏 Achievement Unlocked 揭晓 |
 | blind-box-page.png | 盲盒页（未连钱包是 gate 页 "No wallet, no…"，已验证） |
 | blind-box-opening.png | 开盲盒揭晓动画瞬间 |
 | level-page.png | 等级页登录态（进度+奖励轨道） |

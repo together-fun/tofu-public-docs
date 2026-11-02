@@ -12,6 +12,7 @@ On TOFU, your account isn't a login — it's a character sheet. Everything you d
 * **Level & XP** — every trade earns XP; your level badge follows you into chat, danmaku, and leaderboards.
 * **Avatars, frames & nameplates** — cosmetics you unlock, win, or pull from Trading Drops. Equip them and the whole platform sees.
 * **My Warehouse** — your personal collection: every avatar, frame, and item you've ever earned, on shelves you fill over time.
+* **Achievements** — task checklists with rewards attached; your unlocked count sits on your profile banner.
 * **Your record** — trading stats, milestones, and history that stay on your profile permanently.
 
 None of it is bolted on. Your look, your rank, and your warehouse are all products of the same thing: how you've traded and who you've been in the room. Two accounts never read the same.
@@ -21,6 +22,7 @@ None of it is bolted on. Your look, your rank, and your warehouse are all produc
 | Page | What's in it |
 | --- | --- |
 | [XP & Levels](/dex/xp-levels/) | How XP is earned and what your level unlocks |
+| [Achievements](/dex/achievements/) | Task checklists with rarity-tiered rewards, plus the Growth Route packs |
 | [Avatars & Cosmetics](/dex/cosmetics/) | The full cosmetic system — rarities, equipping, the gallery |
 | [Trading Drops](/dex/trading-drops/) | Loot boxes earned by trading volume |
 | [What's Next](/dex/coming-soon/) | Progression features still in the oven |

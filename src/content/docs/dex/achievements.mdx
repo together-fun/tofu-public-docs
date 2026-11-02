@@ -1,0 +1,93 @@
+---
+title: Achievements
+description: Quests with receipts — clear the tasks, claim rarity-tiered rewards, and walk the Growth Route from Lv5 to Lv50.
+---
+
+import detailShot from '../../../assets/screenshots/achievement-detail-genesis.png';
+import packShot from '../../../assets/screenshots/achievement-growth-pack-lv5.png';
+import rewardPack from '../../../assets/achievement/reward-pack.webp';
+import emCommon from '../../../assets/achievement/emblem_common.webp';
+import emRare from '../../../assets/achievement/emblem_rare.webp';
+import emEpic from '../../../assets/achievement/emblem_epic.webp';
+import emLegendary from '../../../assets/achievement/emblem_legendary.webp';
+
+Farm XP. Unlock Legendary rewards. Every achievement is a quest with a receipt.
+
+![The Achievements page — Farm XP And Unlock Legendary Rewards headline, the Featured card, and the Growth Route of reward packs along the bottom](../../../assets/screenshots/achievement-hero-hd.webp)
+
+### What an achievement is
+
+An achievement is a short checklist with a prize at the end. Clear the tasks, hit **Claim**, pocket the reward. Find them under **Achievement** in the top nav — the catalog is public, so you can window-shop before you even connect a wallet.
+
+Every achievement carries a rarity, on the same palette as cosmetics:
+
+<span class="rarity rarity-common">Common</span> → <span class="rarity rarity-rare">Rare</span> → <span class="rarity rarity-epic">Epic</span> → <span class="rarity rarity-legendary">Legendary</span>
+
+<div class="split-media">
+  <div class="sm-media">
+    <img src={detailShot.src} alt="Achievement detail — Genesis 500 Tofu Chefs, Legendary, 0 / 500 seats, three tasks, and the reward tile" />
+  </div>
+  <div class="sm-body">
+    Open any achievement and you get the full card:
+
+    * **Tasks** — one or several: sign in for N days, set a username, trade $X of volume, reach a level. The progress ring tracks the whole thing; each row shows your number against the target.
+    * **Rewards** — items: avatars, frames, nameplates, danmaku styles, consumables. Tap a tile to inspect the product before you've earned it.
+    * **Limits** — a deadline countdown, a seat cap (`0 / 500`), or both. Limited achievements are first come, first served — once seats are gone the card reads **Full**; past the deadline it reads **Ended**.
+    * **Completers** — tap the seats pill to see who already made it in.
+  </div>
+</div>
+
+One detail worth knowing: a small history icon next to a task means it **counts all-time activity** — what you did before the achievement went live is already on the board. No icon means only activity inside the achievement's own window counts.
+
+### The Growth Route
+
+<div class="split-illust">
+  <div class="si-media">
+    <img src={rewardPack.src} alt="Reward pack illustration" />
+  </div>
+  <div class="si-body">
+    Six reward packs sit along the bottom of the page, pinned to your level track: **Lv5 · Lv10 · Lv20 · Lv30 · Lv40 · Lv50**. The route line fills as you level; the pack you're chasing glows green. Reach the level, the pack lights up, you claim it. Tap any pack to see its **Pack contents** before you get there — no mystery, just motivation.
+  </div>
+</div>
+
+Pack rarity climbs with the level, and the default emblem tells you the tier at a glance:
+
+<div class="cosmetic-row cosmetic-row-4">
+  <div class="cosmetic-item">
+    <img src={emCommon.src} alt="Common achievement emblem" />
+    <span class="cosmetic-name">Level 5 · Level 10</span>
+    <span class="rarity rarity-common">Common</span>
+  </div>
+  <div class="cosmetic-item">
+    <img src={emRare.src} alt="Rare achievement emblem" />
+    <span class="cosmetic-name">Level 20</span>
+    <span class="rarity rarity-rare">Rare</span>
+  </div>
+  <div class="cosmetic-item">
+    <img src={emEpic.src} alt="Epic achievement emblem" />
+    <span class="cosmetic-name">Level 30 · Level 40</span>
+    <span class="rarity rarity-epic">Epic</span>
+  </div>
+  <div class="cosmetic-item">
+    <img src={emLegendary.src} alt="Legendary achievement emblem" />
+    <span class="cosmetic-name">Level 50</span>
+    <span class="rarity rarity-legendary">Legendary</span>
+  </div>
+</div>
+
+<div class="modal-shot">
+  <img src={packShot.src} alt="Growth Route pack detail — Level 5, one task (Reach level · Lv 5), Pack contents: Rare Danmaku ×5" />
+</div>
+
+### Featured & the full list
+
+The hero shows one **Featured** pick — whatever deserves your attention most: something you can claim right now, then a running limited-seat event, then the next Growth pack. Hit **All** to expand the full catalog, grouped by **Growth · Onboarding · Trading · Social · Clan · Event**, with a **Status** filter for Claimable, In progress, Upcoming, Claimed, and Ended. Upcoming achievements show a countdown to their start, so you can line up early.
+
+### Claiming
+
+* **Claiming is manual.** When every task is done, the status flips to **Claim** — on the card, in the list, or on the Growth pack. Press it, the items land in [My Warehouse & My Bags](/dex/cosmetics/#my-warehouse--my-bags).
+* **Completion gets celebrated.** A Common or Rare finish drops a toast; an Epic or Legendary finish takes over the screen with a full **Achievement Unlocked** reveal — same flash-and-rays language as opening a [Trading Drop](/dex/trading-drops/). Claim from there or hit Later.
+* **Sign in required.** Anyone can browse the catalog, but progress and claiming need a signed-in wallet — see [Connect & Enable Trading](/dex/getting-started-connect/). Ghost Mode is read-only here.
+* Your unlocked count shows on your profile banner, next to level and XP.
+
+***Receipts or it didn't happen.***

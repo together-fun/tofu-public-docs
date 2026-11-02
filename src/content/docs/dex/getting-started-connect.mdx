@@ -1,43 +1,55 @@
 ---
 title: Connect & Enable Trading
-description: Connect a wallet and enable trading on TOFU — both steps take under a minute.
+description: Connect a wallet, sign in, and enable trading on TOFU — three steps, under a minute, zero gas.
 ---
 
 import connectModal from '../../../assets/screenshots/connect-modal.png';
-import enableTradingDialog from '../../../assets/screenshots/enable-trading-dialog.png';
+import pipelineSignIn from '../../../assets/screenshots/pipeline-sign-in.png';
+import enableTradingSession from '../../../assets/screenshots/enable-trading-session.png';
 
-Two steps stand between you and your first HYPE: connect a wallet, then enable trading. Both take under a minute.
+Three steps stand between you and your first HYPE: **Connect → Sign in → Enable trading**. The whole thing takes under a minute, and none of it costs gas.
 
 ### 1. Connect your wallet
 
-Click **Connect Wallet** in the top-right corner and pick your weapon — MetaMask, Rabby, WalletConnect, and every major EVM wallet are supported.
+Click **Connect** in the top-right corner and pick your weapon — MetaMask, Coinbase Wallet, OKX Wallet, Rainbow, WalletConnect, and every major EVM wallet are supported. On mobile, a native connect sheet hands you straight to your wallet app.
 
 <div class="modal-shot">
-  <img src={connectModal.src} alt="The Connect Wallet dialog" />
+  <img src={connectModal.src} alt="The Connect a Wallet dialog — MetaMask, Coinbase Wallet, OKX Wallet, Rainbow, WalletConnect" />
 </div>
 
-Connecting is read-only and free: no transaction, no signature fee. You can browse every market, chatroom, and leaderboard before committing anything.
+Connecting is read-only and free: no transaction, no signature. You can browse every market, chatroom, and leaderboard before committing anything.
 
-### 2. Enable trading
+### 2. Sign in to TOFU
 
-Before your first trade, you'll be asked to **Enable Trading** — a one-time guided checklist of up to four steps:
+The moment your wallet connects, the setup checklist opens — **Connect ✓ → Sign in → Enable trading** — and parks on step 2. Hit **Sign in** and approve a single message in your wallet (a standard SIWE signature).
 
-1. **Legal Check** — acknowledge TOFU's Terms of Service.
-2. **Account Activation** — activate your Perps and Spot accounts.
-3. **Approve TOFU Platform** — sign once to authorize TOFU as your builder.
+<div class="modal-shot">
+  <img src={pipelineSignIn.src} alt="The setup checklist on step 2 — Sign in to TOFU. Wallet connected, sign once to trade with TOFU. Free signature, no gas." />
+</div>
+
+* **Free signature, no gas.** You're signing a message, not sending a transaction.
+* This links your wallet to your TOFU identity: your level badge, avatar, XP, achievements, chat, and danmaku all hang off this sign-in.
+* Declined by accident? Sign in whenever you're ready — the checklist waits.
+* Already signed in with this wallet before? The checklist skips straight to step 3. All three done? It closes itself.
+
+### 3. Enable trading
+
+Before your first order, you'll be asked to **Enable Trading** — a one-time guided flow of up to four steps:
+
+1. **Legal Check** — accept TOFU's Terms of Service. One tap, no signature.
+2. **Account Activation** — your Hyperliquid account needs a deposit or past activity. Fresh wallet? Deposit any amount; funds stay in your own account.
+3. **Approve TOFU Platform** — sign once to authorize TOFU as your builder. The builder fee cap is shown right in the dialog.
 4. **Enable Trading Session** — create a **gas-free session key** for instant, low-latency trading.
 
 <div class="modal-shot">
-  <img src={enableTradingDialog.src} alt="The Enable Trading on TOFU dialog — Legal Check, Account Activation, Approve TOFU Platform, and Enable Trading Session" />
+  <img src={enableTradingSession.src} alt="The Enable Trading on TOFU dialog — Legal, Activate, and Approve done; step 4 Enable Trading Session" />
 </div>
 
 * Every step is a **signature, not a transaction** — no gas cost.
 * The session key means you don't have to sign every single order in your wallet. Trading stays one-click fast.
 * Your funds always remain under your control.
-
-### 3. Sign in to TOFU (social layer)
-
-To chat, send danmaku, and earn XP, the platform signs you in with your wallet (a standard SIWE signature). This links your trading identity to your social identity — your level badge, avatar frame, and collection follow you everywhere.
+* Not ready? Hit **Later**. **Enable Trading** stays one click away in your avatar menu until you finish it.
+* Wallet says its agent slots are full? Use **Manage agents** to remove an old one, then retry.
 
 ***
 

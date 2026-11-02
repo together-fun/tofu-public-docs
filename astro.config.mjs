@@ -73,6 +73,7 @@ export default defineConfig({
           items: [
             'dex/your-identity',
             'dex/xp-levels',
+            'dex/achievements',
             'dex/cosmetics',
             'dex/trading-drops',
             'dex/coming-soon',
