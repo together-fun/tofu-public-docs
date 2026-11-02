@@ -23,10 +23,12 @@
 - **框架**：[Astro Starlight](https://starlight.astro.build/)（`astro` + `@astrojs/starlight` 两个依赖）。
   选它的理由：纯静态产物、内置暗色主题/侧边导航/右侧 TOC/全文搜索（Pagefind）/移动端适配，
   主题定制走 CSS 变量；Cloudflare 自家 developers.cloudflare.com 就是 Starlight，撑千页规模没问题。
-- **部署**：Cloudflare（Workers static assets 或 Pages），连 GitHub 仓库 push 自动构建发布。
+- **部署（已上线，2026-11 核实）**：Cloudflare Pages 项目 `tofu-public-docs`，已绑定 GitHub 仓库，
+  push 到 `main` 即自动构建发布（约 1 分钟），域名 `tofu-public-docs.pages.dev` + `docs.together.fun`。
+  日常改稿只需 commit + push，不需要手动 `wrangler`。
   ⚠️ Cloudflare 账号纪律：TOFU 用 togetherdotfun@gmail.com（Account ID `b8140c8a0079e161f4fa0784b63609a4`），
   本机 wrangler 全局登录被 TOFU/USD8 两项目共用，**任何写操作前先 `npx wrangler whoami` 核对账号**。
-- **域名**：建成后把 `docs.together.fun` 的 DNS 从 GitBook 切到本站。切换前旧 GitBook 站仍在线，无空窗。
+- **域名**：`docs.together.fun` 的 DNS 已从 GitBook 切到 Pages 站（线上已是 Starlight 产物）。
 - **llms.txt / *.md 输出**：GitBook 原生提供（archive 里能看到格式），Starlight 有社区插件
   （如 `starlight-llms-txt`）可补齐，建议保留这个能力（对 AI 爬取友好）。
 - 顶部「板块切换」（原 GitBook Site Sections：TOFU Docs / Trading Arcade）：Starlight 可用
@@ -111,14 +113,15 @@ primary-9 文字，即可高度还原旧站观感。
 
 ## 7. 待办清单（接手后的路线图）
 
-1. [ ] Starlight 建站骨架 + TOFU 主题（§5 参数）+ 灌入 content/ 全部稿件
-2. [ ] 本地预览给用户过稿（用户会中文反馈，文档正文保持英文）
-3. [ ] 补齐配图：A2 四张（需 playwright 脚本点击/裁切）+ B 类 14 张钱包态（需用户配合）
-   + 视情况用生产站重截带 STAGING 角标的 6 张
-4. [ ] 图片占位 `<!-- IMG: ... -->` 替换为真实引用；卡片区 `<!-- CARDS: ... -->` 用组件实现
-5. [ ] llms.txt / 页面 .md 输出插件
-6. [ ] 部署 Cloudflare（核对账号！§2）+ 用户确认后切 docs.together.fun DNS
+1. [x] Starlight 建站骨架 + TOFU 主题（§5 参数）+ 灌入全部稿件（页面现位于 `src/content/docs/{tofu-docs,dex}/`）
+2. [x] 本地预览给用户过稿（用户会中文反馈，文档正文保持英文）
+3. [ ] 补齐配图：A 类已全部入库；B 类钱包登录态截图仍待用户配合（清单见 `assets/SHOT_LIST.md` §B）
+4. [x] 图片占位 `<!-- IMG: ... -->` / `<!-- CARDS: ... -->` 已全部替换（src 下已无占位注释）
+5. [x] llms.txt / 页面 .md 输出插件（`starlight-llms-txt`）
+6. [x] 部署 Cloudflare Pages + `docs.together.fun` DNS 已切换（§2）
 7. [ ] 旧 GitBook 账号降回 Free 留档（用户操作）
+8. [ ] 依赖安全更新：Dependabot 18 条告警全部来自 astro 的构建期传递依赖（vite 8.3.0 / devalue 5.9.2 /
+   undici 8.10.2），修法 = 升 `astro` 到 ≥7.3.3（当前锁 7.3.2）并刷新锁文件；不影响线上静态产物
 
 ## 8. 历史存档
 

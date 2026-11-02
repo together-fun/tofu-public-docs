@@ -21,7 +21,7 @@ pnpm preview    # serve the production build locally
 ## Layout
 
 ```
-src/content/docs/            All pages (index.mdx + tofu-docs/ + arcade/)
+src/content/docs/            All pages (index.mdx + tofu-docs/ + dex/)
 src/assets/                  Images referenced by pages (brand / screenshots / backgrounds)
 src/styles/theme.css         TOFU theme (palette from HANDOVER.md §5)
 astro.config.mjs             Starlight config: sidebar, logo, plugins, port 3100
@@ -30,4 +30,8 @@ archive/                     Old GitBook site snapshot + restructure design
 HANDOVER.md                  ★ Project handover doc — read this first (Chinese)
 ```
 
-Content conventions, terminology, and fact-source rules live in `.cursor/rules/tofu-docs.mdc`. Deployment target: Cloudflare (not wired up yet).
+Content conventions, terminology, and fact-source rules live in `.cursor/rules/tofu-docs.mdc`.
+
+## Deployment
+
+Cloudflare Pages project `tofu-public-docs` (account togetherdotfun@gmail.com) is connected to this GitHub repo: every push to `main` triggers a build (`pnpm build` → `dist/`) and goes live at [docs.together.fun](https://docs.together.fun) within about a minute. No manual `wrangler` step is needed.
