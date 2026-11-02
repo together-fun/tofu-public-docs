@@ -884,12 +884,288 @@ mobile-starlight-toc nav ul.isMobile > li > ul {
   }
 }
 
-/* Chat level badge images: small inline strips, no photo framing. */
-.sl-markdown-content img.chatlevel-badge,
-img.chatlevel-badge {
-  border: none;
-  border-radius: 0;
-  box-shadow: none;
-  height: 2rem;
+/* ---- Chat level badge: PNG strip + level number overlaid on its left half -- */
+
+/* Mirrors the product's ChatLevelBadge: the PNG's right half is the tier
+ * icon, the left half is empty for the number (8% / 54% padding, number
+ * size = 0.44 x height). `--badge-h` sets the size per context. */
+.lvl-badge {
+  --badge-h: 2.75rem;
+  position: relative;
+  display: inline-flex;
+  flex: none;
+  height: var(--badge-h);
+}
+.lvl-badge starlight-image-zoom-zoomable {
+  display: contents;
+}
+.lvl-badge .starlight-image-zoom-control {
+  display: none;
+}
+.lvl-badge img {
+  display: block;
+  height: 100%;
   width: auto;
+  margin: 0;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+}
+.lvl-badge b {
+  position: absolute;
+  inset: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-left: 8%;
+  padding-right: 54%;
+  color: #fff;
+  font-weight: 700;
+  font-size: calc(var(--badge-h) * 0.44);
+  line-height: 1;
+  font-variant-numeric: tabular-nums;
+}
+
+/* ---- XP page hero: headline + three stats, tilted badge tower on the right - */
+
+/* Echoes the product's /level hero (TOFU · Level System). `.not-content`
+ * opts the block out of Starlight's sibling-margin rule so spacing is ours. */
+.level-hero {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) 17rem;
+  gap: 2rem;
+  align-items: center;
+  margin-block: 1.5rem 2.25rem;
+}
+.level-hero .lh-kicker {
+  display: flex;
+  align-items: center;
+  gap: 0.6rem;
+  margin: 0;
+  font-size: 0.68rem;
+  font-weight: 800;
+  letter-spacing: 0.24em;
+  text-transform: uppercase;
+  color: var(--sl-color-accent-high);
+}
+.level-hero .lh-kicker::before {
+  content: '';
+  width: 1.75rem;
+  height: 2px;
+  background: currentColor;
+}
+.level-hero .lh-title {
+  margin: 0.7rem 0 0;
+  font-size: 2.5rem;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  color: var(--sl-color-white);
+}
+.level-hero .lh-grad {
+  display: block;
+  background: linear-gradient(90deg, #14f195 0%, #3bfbe0 55%, #c9a6ff 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.level-hero .lh-stats {
+  display: flex;
+  gap: 1.75rem;
+  margin-top: 1.4rem;
+}
+.level-hero .lh-stats > div {
+  border-left: 2px solid var(--sl-color-accent-high);
+  padding-left: 0.75rem;
+}
+.level-hero .lh-stats b {
+  display: block;
+  font-size: 1.65rem;
+  line-height: 1;
+  font-weight: 900;
+  letter-spacing: -0.03em;
+  color: var(--sl-color-white);
+  font-variant-numeric: tabular-nums;
+}
+.level-hero .lh-stats small {
+  display: block;
+  margin-top: 0.4rem;
+  font-size: 0.62rem;
+  letter-spacing: 0.12em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  color: var(--sl-color-gray-3);
+}
+
+/* Badge tower: the three top-tier badges (70 King / 90 Kraken / 99 God Mode)
+ * stacked far -> near on a plane tilted rotateY(-14deg) rotateX(8deg), with a
+ * brand-green glow behind, as on the product page. */
+.badge-tower {
+  position: relative;
+  height: 14.5rem;
+  perspective: 900px;
+}
+.badge-tower::before {
+  content: '';
+  position: absolute;
+  left: 1.5rem;
+  top: -1rem;
+  width: 13rem;
+  height: 13rem;
+  border-radius: 50%;
+  background: #14f195;
+  opacity: 0.22;
+  filter: blur(70px);
+  pointer-events: none;
+}
+.badge-tower .bt-plane {
+  position: absolute;
+  inset: 0;
+  transform: rotateY(-14deg) rotateX(8deg);
+  transform-style: preserve-3d;
+}
+.badge-tower .lvl-badge {
+  position: absolute;
+  filter: drop-shadow(0 18px 36px rgb(0 0 0 / 0.6));
+}
+.badge-tower .bt-far {
+  --badge-h: 3.4rem;
+  left: 2.4rem;
+  top: 0.5rem;
+  opacity: 0.6;
+}
+.badge-tower .bt-mid {
+  --badge-h: 4.25rem;
+  left: 3.1rem;
+  top: 3.9rem;
+  opacity: 0.85;
+}
+.badge-tower .bt-near {
+  --badge-h: 5.1rem;
+  left: 4rem;
+  top: 8.2rem;
+  filter: drop-shadow(0 22px 44px rgb(20 241 149 / 0.35));
+}
+@media (max-width: 48rem) {
+  .level-hero {
+    grid-template-columns: minmax(0, 1fr);
+  }
+  .level-hero .lh-title {
+    font-size: 2.1rem;
+  }
+  .badge-tower {
+    width: 17rem;
+    justify-self: center;
+  }
+}
+
+/* ---- XP page: chat tier cards (product "Your Journey" grid) -------------- */
+
+.tier-grid {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: 1rem;
+  margin-block: 1.25rem;
+}
+.tier-card {
+  --tier-bar: var(--rarity-common);
+  --tier-text: var(--sl-color-white);
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  overflow: hidden;
+  padding: 0.9rem 0.9rem 1.15rem;
+  border: 1px solid var(--sl-color-hairline);
+  border-radius: 0.75rem;
+  background-color: #050906;
+}
+/* 4px tier-colour bar on the bottom edge (same language as the product's collection cards). */
+.tier-card::after {
+  content: '';
+  position: absolute;
+  inset-inline: 0;
+  bottom: 0;
+  height: 4px;
+  background: var(--tier-bar);
+}
+.tier-green {
+  --tier-bar: #14f195;
+  --tier-text: #14f195;
+}
+.tier-purple {
+  --tier-bar: #9b48fb;
+  --tier-text: #b57bff;
+}
+.tier-magenta {
+  --tier-bar: #eb56e3;
+  --tier-text: #eb56e3;
+}
+.tier-gold {
+  --tier-bar: #fedf00;
+  --tier-text: #fedf00;
+}
+.tier-brand {
+  --tier-bar: linear-gradient(90deg, #fedf00, #14f195, #faf518);
+}
+.tier-brand .tc-name {
+  background: linear-gradient(90deg, #fedf00, #14f195, #faf518);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.tier-card .tc-head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.tier-card .lvl-badge {
+  --badge-h: 2.75rem;
+}
+.tier-card .tc-index {
+  font-family: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+  font-size: 0.66rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--sl-color-gray-3);
+}
+.tier-card .tc-title {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 0.5rem;
+  margin: 0;
+  font-size: 1rem;
+  line-height: 1.2;
+  font-weight: 800;
+  letter-spacing: -0.01em;
+}
+.tier-card .tc-name {
+  color: var(--tier-text);
+}
+.tier-card .tc-pill {
+  display: inline-flex;
+  align-items: center;
+  height: 1.25rem;
+  padding-inline: 0.45rem;
+  border-radius: 0.25rem;
+  background-color: var(--sl-color-gray-6);
+  font-family: ui-monospace, 'SFMono-Regular', Menlo, Consolas, monospace;
+  font-size: 0.66rem;
+  font-weight: 400;
+  letter-spacing: 0;
+  white-space: nowrap;
+  color: var(--sl-color-gray-2);
+}
+.tier-card .tc-desc {
+  margin: 0;
+  font-size: 0.8rem;
+  line-height: 1.5;
+  color: var(--sl-color-gray-2);
+}
+@media (max-width: 48rem) {
+  .tier-grid {
+    grid-template-columns: minmax(0, 1fr);
+  }
 }

@@ -7,12 +7,33 @@ import freshAvatar from '../../../assets/cosmetics/avatar-wagmi_warrior.webp';
 import midAvatar from '../../../assets/cosmetics/avatar-astronaut.webp';
 import topAvatar from '../../../assets/cosmetics/avatar-ath_king.webp';
 import topFrame from '../../../assets/cosmetics/frame-golden_sovereign_wings.webp';
-import lvlSlice from '../../../assets/cosmetics/chatlevel-2.png';
-import lvlWhale from '../../../assets/cosmetics/chatlevel-5.png';
-import lvlKing from '../../../assets/cosmetics/chatlevel-8.png';
-import lvlKraken from '../../../assets/cosmetics/chatlevel-10.png';
+import lv0 from '../../../assets/chatlevel/chatlevel-0.png';
+import lv2 from '../../../assets/chatlevel/chatlevel-2.png';
+import lv5 from '../../../assets/chatlevel/chatlevel-5.png';
+import lv8 from '../../../assets/chatlevel/chatlevel-8.png';
+import lv10 from '../../../assets/chatlevel/chatlevel-10.png';
+import lv11 from '../../../assets/chatlevel/chatlevel-11.png';
 
 Every trade earns XP. Every level tells the world who you are.
+
+<div class="level-hero not-content">
+  <div class="lh-body">
+    <p class="lh-kicker">TOFU · Level System</p>
+    <p class="lh-title">Trade. Level up. <span class="lh-grad">Flex in chat.</span></p>
+    <div class="lh-stats">
+      <div><b>12</b><small>Tiers</small></div>
+      <div><b>99+</b><small>Levels</small></div>
+      <div><b>Auto</b><small>Badge upgrade</small></div>
+    </div>
+  </div>
+  <div class="badge-tower" aria-hidden="true">
+    <div class="bt-plane">
+    <span class="lvl-badge bt-far"><img src={lv8.src} alt="" /><b>70</b></span>
+    <span class="lvl-badge bt-mid"><img src={lv10.src} alt="" /><b>90</b></span>
+    <span class="lvl-badge bt-near"><img src={lv11.src} alt="" /><b>99</b></span>
+    </div>
+  </div>
+</div>
 
 ### Earning XP
 
@@ -58,16 +79,60 @@ And this is only the start: higher tiers are slated to unlock more *visible* pri
 
 ### Chat level
 
-Your level also maps to a **chat tier** — a badge displayed next to your name in every room, with a web3-native title to match. Twelve tiers cover the whole journey, from **Paper Fish** (just connected) all the way to **God Mode** (Lv. 99+). A few stops along the way:
+Your level also maps to a **chat tier** — a badge displayed next to your name in every room, with a web3-native title to match. Twelve tiers cover the whole journey from **Paper Fish** (just connected) to **God Mode** (Lv.99+), and the badge **upgrades automatically** the moment you cross a threshold — no claiming. Six stops along the way:
 
-| Badge | Tier | Levels |
-| --- | --- | --- |
-| <img class="chatlevel-badge" src={lvlSlice.src} alt="Slice Degen badge" /> | Slice Degen | 10–19 |
-| <img class="chatlevel-badge" src={lvlWhale.src} alt="Whale badge" /> | Whale | 40–49 |
-| <img class="chatlevel-badge" src={lvlKing.src} alt="King badge" /> | King | 70–79 |
-| <img class="chatlevel-badge" src={lvlKraken.src} alt="Kraken badge" /> | Kraken | 90–98 |
+<div class="tier-grid not-content">
+  <div class="tier-card tier-common">
+    <div class="tc-head">
+      <span class="lvl-badge"><img src={lv0.src} alt="Paper Fish badge" /><b>1</b></span>
+      <span class="tc-index">Tier 01</span>
+    </div>
+    <p class="tc-title"><span class="tc-name">Paper Fish</span> <span class="tc-pill">Lv.1</span></p>
+    <p class="tc-desc">You've just connected the wallet. Still swimming in the shallow end — but every whale was a minnow once.</p>
+  </div>
+  <div class="tier-card tier-green">
+    <div class="tc-head">
+      <span class="lvl-badge"><img src={lv2.src} alt="Slice Degen badge" /><b>10</b></span>
+      <span class="tc-index">Tier 03</span>
+    </div>
+    <p class="tc-title"><span class="tc-name">Slice Degen</span> <span class="tc-pill">Lv.10–19</span></p>
+    <p class="tc-desc">One slice of the pie, one slice of the chart. You trade hungry. Pizza hands &gt; paper hands.</p>
+  </div>
+  <div class="tier-card tier-purple">
+    <div class="tc-head">
+      <span class="lvl-badge"><img src={lv5.src} alt="Whale badge" /><b>40</b></span>
+      <span class="tc-index">Tier 06</span>
+    </div>
+    <p class="tc-title"><span class="tc-name">Whale</span> <span class="tc-pill">Lv.40–49</span></p>
+    <p class="tc-desc">Size matters. The order book feels you. Smaller fish copy your flow — or cope in chat.</p>
+  </div>
+  <div class="tier-card tier-gold">
+    <div class="tc-head">
+      <span class="lvl-badge"><img src={lv8.src} alt="King badge" /><b>70</b></span>
+      <span class="tc-index">Tier 09</span>
+    </div>
+    <p class="tc-title"><span class="tc-name">King</span> <span class="tc-pill">Lv.70–79</span></p>
+    <p class="tc-desc">The market bows before you. Lesser traders watch your moves for alpha. When you speak, degens listen.</p>
+  </div>
+  <div class="tier-card tier-brand">
+    <div class="tc-head">
+      <span class="lvl-badge"><img src={lv10.src} alt="Kraken badge" /><b>90</b></span>
+      <span class="tc-index">Tier 11</span>
+    </div>
+    <p class="tc-title"><span class="tc-name">Kraken</span> <span class="tc-pill">Lv.90–98</span></p>
+    <p class="tc-desc">Deep liquidity, deeper lore. When you move, the whole channel feels the tentacles.</p>
+  </div>
+  <div class="tier-card tier-brand">
+    <div class="tc-head">
+      <span class="lvl-badge"><img src={lv11.src} alt="God Mode badge" /><b>99</b></span>
+      <span class="tc-index">Tier 12</span>
+    </div>
+    <p class="tc-title"><span class="tc-name">God Mode</span> <span class="tc-pill">Lv.99+</span></p>
+    <p class="tc-desc">Ascended beyond mortal trading. The market is your playground. Legends speak of your PnL in hushed tones.</p>
+  </div>
+</div>
 
-The badge does the talking: a Whale reads differently in chat than a Fresh Shrimp — and the anon who keeps the room alive at 3 AM climbs too, not just the volume whales.
+The badge does the talking: a Whale reads differently in chat than a Fresh Shrimp — and the anon who keeps the room alive at 3 AM climbs too, not just the volume whales. The full twelve-tier ladder lives at **More → Level** in the app.
 
 ### The long game
 

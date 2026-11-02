@@ -45,7 +45,6 @@
 | enable-trading-session.png | dex/getting-started-connect | ✅ 2026-11-02 用户提供（新版 Enable Trading 四节点 stepper，停在第 4 步 Session；替代已删除的 enable-trading-dialog.png） |
 | achievement-hero-hd.webp | dex/achievements（首图） | ✅ 2026-11-02 本地 dev（localhost:3000，staging 后端）@2x 截 `/achievement` 首屏，裁去导航栏+跑马灯、隐藏 Next dev 角标；未登录态（Featured = Genesis 500 Tofu Chefs 真实活动） |
 | achievement-detail-genesis.png | dex/achievements | ✅ 同上，Featured 详情弹窗 element crop（任务 3 条 + 奖励 tile + 0/500 席位） |
-| achievement-growth-pack-lv5.png | dex/achievements | ✅ 同上，Growth Route Lv5 pack 详情弹窗（Pack contents: Rare Danmaku ×5） |
 | markets-overview.png | dex/markets（首图） | ✅ 2026-09-15 用户提供（Outcome/Perps/Spot tab + 热力图 + Top Volume + 行情表） |
 | profile-trading-calendar.png | dex/portfolio（首图） | ✅ 2026-09-15 用户提供（Trading Calendar + Account Performance，余额经用户同意公开） |
 | profile-warehouse.png | dex/your-identity（首图） | ✅ 2026-09-15 用户提供（MonsterDegen profile + My Warehouse 头像仓库） |
@@ -77,6 +76,9 @@ Store / Clan（含 treasury）/ Stream（含 PK）/ Rekt Graveyard。
 
 ## D. 复用现有素材（不用截）
 
+- 聊天等级徽章 12 张：R2 `https://tofu-web-assets.together.fun/chatlevel/{0..11}.png`（300×100，左半留白给数字），
+  2026-11-02 全量入库 `src/assets/chatlevel/`；docs 用 `.lvl-badge` 叠数字（复刻前端 ChatLevelBadge：
+  padding 8%/54%、字号 0.44×高）。旧 `src/assets/cosmetics/chatlevel-*.png` 已删。
 - 装扮素材（头像/框/物品）：R2 原图 `https://tofu-assets.together.fun/skins/{avatar|avatar_frame}/<id>/assets/primary.png`
   （头像 384×384 / 框 512×512），2026-09-15 已统一分辨率入库 `src/assets/cosmetics/`，保证点击放大尺寸一致。
 - Tofu Man 系列插画、team 图片、RugPad 截图、`banner_realtimechat.webp`（chat 页）—— 来自前端仓库 public/images。
